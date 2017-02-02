@@ -19,40 +19,40 @@ melody = \relative c'' {
   \tuplet 6/4 { b1 a4 b }
 
   d4. a8 f4 d'
-  \tuplet 6/4 { c1 a4 b }
+  \tuplet 6/4 { cis1 a4 b }
 
   e4 d e a
   g2 d2
 
   % verse 1 (second)
-  cis4 d e4. a,8
-  b8 a2..
+  cis4 d e a,
+  b4 a <e a>2
 
-  cis4 d e4. a,8
-  \tuplet 6/4 { b1 a4 b }
+  cis'4 d e a,
+  b2 <e, a>4 b'
 
-  d4. a8 f4 d'
-  \tuplet 6/4 { c1 a4 b }
+  <f d'>4 a f d'
+  <e, cis'>2 a4 b
 
   e4 d e a
-  g2 d2
+  g2 <b, d>2
 
   % verse 2
-  <a cis>2 \tuplet 3/2 { <a cis>4 <b d> <cis e> }
-  <e, a>4 <e b'> <e a>8 b'16 a <e gis>8 e
+  <a cis>4. <a cis>8 <b d> <cis e> <e, a> <e b'>
+  <e a>4 b'8 a <e gis>4 e
 
   <e a>4 b' <a cis>4. d8
   <a cis>4. <e b'> <a cis>8 <e b'>
 
   <f a>2 <d f>4 <b' d>
-  <a cis>4 <c, e> <b' d> <a cis>
+  <a cis>4 <cis, e> <b' d> <a cis>
 
   <a c e>2 <a c e>8 <a b d> <a c e> <c f>
   <b d g>2. r4
 
   % verse 2 (second)
-  <a cis>2 \tuplet 3/2 { <a cis>4 <b d> <cis e> }
-  <e, a>4 <e b'> <e a>8 b'16 a <e gis>8 e
+  <a cis>4. <a cis>8 <b d> <cis e> <e, a> <e b'>
+  <e a>4 b'8 a <e gis>4 e
 
   <e a>4 b' <a cis>4. d8
   <a cis>4. <e b'> <a cis>8 <e b'>
@@ -70,15 +70,26 @@ melody = \relative c'' {
   \key ees \major
 
   <aes c ees>2 <aes c ees>8 <bes d> <c ees> <bes d f>
-  <c d g>2 <aes c ees>4 <bes d f>
+  <c d g>2
+    {
+      \set Score.tempoHideNote = ##t
 
-  % transition 3 (sharp)
-  \key c \major
+      \tempo 4 = 90 <aes c ees>4^\markup { \italic "rit." } \tempo 4 = 85 <bes d f>
 
-  \ottava #-1 <c,, d g>4 \ottava #0 <c' d g> <c' d g> <b, d g>
+      % transition 3 (sharp)
+      \key c \major
+
+      \tempo 4 = 80 \ottava #-1 <c,, d g>4 \ottava #0 \tempo 4 = 75 <c' d g> \tempo 4 = 70 <c' d g> \tempo 4 = 60 <b, d g>
+    }
 
   % finale
-  <e e'>4 <f f'> <g g'> <c, c'>
+  {
+    \set Score.tempoHideNote = ##t
+    \tempo 4 = 100
+  }
+
+  <e e'>4^\markup { \italic "a tempo" } <f f'> <g g'> <c, c'>
+
   <d d'>4 <c c'> <b d g>2
 
   <e e'>4 <f f'> <g g'> <c, c'>
@@ -91,27 +102,28 @@ melody = \relative c'' {
   <e e'>2 <c c'>4 <d d'>
 
   <f f'>4 <c c'> <aes aes'>2
-  <ees' c>4 <d bes> <c a> b
+  <ees' c>4 <d bes> <c a> bes
 
   % reprise
-  <c g'>2 \tuplet 3/2 { e4 f g }
-  c,4 d c8 d16 c b8 g
+  <c g'>4. e8 f g c, d
+  c4 d8 c b4 g
 
   c4 d e4. f8
-  <a, c e>1
+  <c e>1
 
-  <g b d>1
+  <b d>1
   r1
 
   % ending
-  r1
-  <g' e'>4 f' <g, g'> c
+  {
+    \set Score.tempoHideNote = ##t
 
-  <g d'>2 <f c'>4 d
-  <f f'>4 <g e'> <aes c> <aes g'>
+    \tempo 4 = 90 <g' e'>4^\markup { \italic "rit." } f' \tempo 4 = 80 <g, g'> c
+    \tempo 4 = 70 <g d'>2 \tempo 4 = 60 <f c'>4 d'
 
-  \ottava #-1 <c, e,>1~
-  <c e,>1 \ottava #0
+    \tempo 4 = 50 <f, f'>4 <g e'> \tempo 4 = 40 <aes c> \tempo 4 = 30 <aes g'>
+    \ottava #-1 <e, c'>1 \ottava #0
+  }
 
   \bar "|."
 }
@@ -184,40 +196,37 @@ bass = \relative c' {
   r2 r4 g
 
   % finale
-  c2 <c g'>4 r4
-  b4 <b d>4 <g' d>2
+  c2 <g c>4 r4
+  b4 <d, b'>4 <d g>2
 
-  bes,4 g <g c> r4
+  bes'4 g <g c> r4
   a4 <g c> c, d
 
-  <aes' f>4 g <aes f> r
-  <g d>4 b c r4
+  <f aes>4 g <f aes> r
+  <d g>4 b' c, r4
 
-  <aes f>4 g <aes f> r
-  <g d>4 b c r4
+  <f aes>4 g <f aes> r
+  <d g>4 b' c, r4
 
-  <aes f>4 g <aes f> r
-  <aes c>1
+  <f aes>4 g f r
+  <aes c,>1
 
   % reprise
   <g e>4 r2.
-  e'2 d4 c
+  e2 d4 c
 
   e4 f g r
-  f,1
+  <f a>1
 
   g1
   r1
 
   % ending
-  r1
-  c2 b2
-
+  c2 b
   bes2 a
-  aes4 r2.
 
-  <c, g'>1~
-  <c g'>1
+  aes4 r2.
+  <c, g'>1
 
   \bar "|."
 }
@@ -228,8 +237,6 @@ keys = \new Staff {
   \main_tempo
   \main_key
 
-  \set Staff.midiInstrument = #"tubular bells"
-
   \melody
 }
 
@@ -238,8 +245,6 @@ pedals = \new Staff {
 
   \main_tempo
   \main_key
-
-  \set Staff.midiInstrument = #"tubular bells"
 
   \bass
 }
