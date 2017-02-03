@@ -12,7 +12,7 @@ main_key = \key a \major
 
 melody = \relative c'' {
   % verse 1
-  cis4 d e4. a,8
+  cis4\mp d e4. a,8
   b8 a2..
 
   cis4 d e4. a,8
@@ -25,8 +25,8 @@ melody = \relative c'' {
   g2 d2
 
   % verse 1 (second)
-  cis4 d e a,
-  b4 a <e a>2
+  cis4\mf d e a,
+  b4 a e2
 
   cis'4 d e a,
   b2 <e, a>4 b'
@@ -69,7 +69,7 @@ melody = \relative c'' {
   % transition 2 (flat)
   \key ees \major
 
-  <aes c ees>2 <aes c ees>8 <bes d> <c ees> <bes d f>
+  <aes c ees>2\f <aes c ees>8 <bes d> <c ees> <bes d f>
   <c d g>2
     {
       \set Score.tempoHideNote = ##t
@@ -88,7 +88,7 @@ melody = \relative c'' {
     \tempo 4 = 100
   }
 
-  <e e'>4^\markup { \italic "a tempo" } <f f'> <g g'> <c, c'>
+  <e e'>4\ff^\markup { \italic "a tempo" } <f f'> <g g'> <c, c'>
 
   <d d'>4 <c c'> <b d g>2
 
@@ -105,7 +105,7 @@ melody = \relative c'' {
   <ees' c>4 <d bes> <c a> bes
 
   % reprise
-  <c g'>4. e8 f g c, d
+  <c g'>4. e8\p f g c, d
   c4 d8 c b4 g
 
   c4 d e4. f8
@@ -118,7 +118,7 @@ melody = \relative c'' {
   {
     \set Score.tempoHideNote = ##t
 
-    \tempo 4 = 90 <g' e'>4^\markup { \italic "rit." } f' \tempo 4 = 80 <g, g'> c
+    \tempo 4 = 90 <g' e'>4\pp^\markup { \italic "rit." } f' \tempo 4 = 80 <g, g'> c
     \tempo 4 = 70 <g d'>2 \tempo 4 = 60 <f c'>4 d'
 
     \tempo 4 = 50 <f, f'>4 <g e'> \tempo 4 = 40 <aes c> \tempo 4 = 30 <aes g'>
