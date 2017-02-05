@@ -7,7 +7,7 @@
   arranger = "Foster McLane"
 }
 
-main_tempo = \tempo 4 = 100
+main_tempo = \tempo 4 = 70
 main_key = \key a \major
 
 melody = \relative c'' {
@@ -74,18 +74,18 @@ melody = \relative c'' {
     {
       \set Score.tempoHideNote = ##t
 
-      \tempo 4 = 90 <aes c ees>4^\markup { \italic "rit." } \tempo 4 = 85 <bes d f>
+      \tempo 4 = 66 <aes c ees>4^\markup { \italic "rit." } \tempo 4 = 62 <bes d f>
 
       % transition 3 (sharp)
       \key c \major
 
-      \tempo 4 = 80 \ottava #-1 <c,, d g>4 \ottava #0 \tempo 4 = 75 <c' d g> \tempo 4 = 70 <c' d g> \tempo 4 = 60 <b, d g>
+      \tempo 4 = 58 \ottava #-1 <c,, d g>4 \ottava #0 \tempo 4 = 54 <c' d g> \tempo 4 = 50 <c' d g> \tempo 4 = 46 <b, d g>
     }
 
   % finale
   {
     \set Score.tempoHideNote = ##t
-    \tempo 4 = 100
+    \main_tempo
   }
 
   <e e'>4\ff^\markup { \italic "a tempo" } <f f'> <g g'> <c, c'>
@@ -118,10 +118,10 @@ melody = \relative c'' {
   {
     \set Score.tempoHideNote = ##t
 
-    \tempo 4 = 90 <g' e'>4\pp^\markup { \italic "rit." } f' \tempo 4 = 80 <g, g'> c
-    \tempo 4 = 70 <g d'>2 \tempo 4 = 60 <f c'>4 d'
+    \tempo 4 = 66 <g' e'>4\pp^\markup { \italic "rit." } f' \tempo 4 = 62 <g, g'> c
+    \tempo 4 = 58 <g d'>2 \tempo 4 = 54 <f c'>4 d'
 
-    \tempo 4 = 50 <f, f'>4 <g e'> \tempo 4 = 40 <aes c> \tempo 4 = 30 <aes g'>
+    \tempo 4 = 50 <f, f'>4 <g e'> \tempo 4 = 46 <aes c> \tempo 4 = 42 <aes g'>
     \ottava #-1 <e, c'>1 \ottava #0
   }
 
