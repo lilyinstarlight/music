@@ -47,7 +47,7 @@ melody = \relative c'' {
   <f a>2 <d f>4 <b' d>
   <a cis>4 <cis, e> <b' d> <a cis>
 
-  <a c e>2 <a c e>8 <a b d> <a c e> <c f>
+  <a c e>2 <c e>8 <b d> <c e> <c f>
   <b d g>2. r4
 
   % verse 2 (second)
@@ -69,7 +69,7 @@ melody = \relative c'' {
   % transition 2 (flat)
   \key ees \major
 
-  <aes c ees>2\f <aes c ees>8 <bes d> <c ees> <bes d f>
+  <aes c ees>2\f <c ees>8 <bes d> <c ees> <d f>
   <c d g>2
     {
       \set Score.tempoHideNote = ##t
