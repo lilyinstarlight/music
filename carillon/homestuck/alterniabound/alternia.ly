@@ -3,11 +3,11 @@
 \header {
   title = "Alternia"
   instrument = "Carillon"
-  composer = "Seth \"Beatfox\" Peelle"
+  composer = "Toby Fox & Seth Peelle"
   arranger = "Foster McLane"
 }
 
-main_tempo = \tempo 4 = 70
+main_tempo = \tempo 4 = 80
 main_key = \key a \major
 
 melody = \relative c'' {
