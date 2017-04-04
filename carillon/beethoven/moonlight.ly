@@ -277,10 +277,14 @@ harmony = \relative c'' {
     fis,8[ b dis]
     fis,8[ b dis]
 
+    \clef "treble"
+
     cis,8[ fis a]
     cis,8[ fis a]
     cis,8[ fis gis]
     cis,8[ eis gis]
+
+    \clef "treble^8"
 
     % part 3
     fis8[ a cis]
@@ -348,12 +352,14 @@ harmony = \relative c'' {
     fis,8[ bis a]
     dis8[ bis fis']
     dis8[ a' fis]
-    bis8[ a dis]
+    bis8[ a dis,]
 
-    bis8[ fis a]
+    bis'8[ fis a]
     dis,8[ fis bis,]
     dis8[ a bis]
     fis8[ a dis,]
+
+    \clef "treble"
 
     fis8[ bis, dis]
     a8[ bis fis]
@@ -379,6 +385,8 @@ harmony = \relative c'' {
     dis,8[ a' cis]
     dis,8[ gis bis]
     dis,8[ fis bis]
+
+    \clef "treble^8"
 
     % part 6
     e,8[ gis cis]
@@ -458,7 +466,7 @@ harmony = \relative c'' {
     b,8[ e gis]
 
     a,8[ e' gis]
-    a,8[ dis gis]
+    a,8[ dis fis]
     gis,8[ dis' fis]
     gis,8[ cis e]
 
@@ -493,7 +501,7 @@ harmony = \relative c'' {
     dis,8[ fis a,]
     bis8[ gis fis]
 
-    cis'8[ e' cis]
+    cis'8[ e cis]
     gis'8[ e cis']
     gis8[ e' cis]
     gis'8[ e cis]
@@ -503,7 +511,7 @@ harmony = \relative c'' {
     dis,8[ fis a,]
     bis8[ gis fis]
 
-    e8[ gis cis]
+    e'8[ gis cis]
     e8[ cis gis]
     r8 e[ gis]
     cis8[ gis e]
