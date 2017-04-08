@@ -33,9 +33,26 @@ melody = \relative c''' {
   e1
   d'4. e a,4~
 
+  % part 3
   a2. <c, a'>8 <d b'>~
   <d b'>2. <d b'>8 <e c'>~
-  <e c'>4.
+  <e c'>4. <d b'>8~ <d b'>4. <c a'>8~
+  <c a'>2. <b g'>4
+
+  <c a'>2. <c a'>8 <d b'>~
+  <d b'>2. <d b'>8 <e c'>~
+  <e c'>1
+  r1
+
+  a2. <c, a'>8 <d b'>~
+  <d b'>2. <d b'>8 <e c'>~
+  <e c'>4. <d b'>8~ <d b'>4. <c a'>8~
+  <c a'>2. <b g'>4
+
+  <c a'>2. <c a'>8 <d b'>~
+  <d b'>2. <d b'>8 <e c'>~
+  <e c'>1
+  r1
 
   \bar "|."
 }
@@ -66,7 +83,23 @@ harmony = \relative c'' {
   % part 3
   a2. s4
   s1
-  s4.
+  s1
+  s1
+
+  s1
+  s1
+  s1
+  s1
+
+  s1
+  s1
+  s1
+  s1
+
+  s1
+  s1
+  s1
+  s1
 
   \bar "|."
 }
@@ -97,7 +130,23 @@ bass = \relative c' {
   % part 3
   f2. f8 g~
   g2. g4
-  a4.
+  a4. e8~ e2
+  f1
+
+  f2. f8 g~
+  g2. g4
+  a1
+  r1
+
+  f2. f8 g~
+  g2. g4
+  a4. e8~ e2
+  f1
+
+  f2. f8 g~
+  g2. g4
+  a1
+  r1
 
   \bar "|."
 }
