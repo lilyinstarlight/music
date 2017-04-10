@@ -560,29 +560,29 @@ bass = \relative c' {
 
   b2 e,4 g
 
-  fis'2 <fis, fis'>2
+  fis2 fis
 
   % part 2
   b1~
 
-  b4 e g e
+  b4 e, g e
 
-  b1~
+  b'1~
 
-  b4 e g e
+  b4 e, g e
 
-  b2 gis
+  b'2 gis
 
   eis2 fis
 
   b2 bis2
 
-  cis2 cis
+  r1
 
   % part 3
-  <fis cis>1
+  <fis cis'>1
 
-  <cis eis>1
+  <cis' eis>1
 
   fis2 dis4 cis
 
