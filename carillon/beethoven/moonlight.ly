@@ -153,8 +153,6 @@ melody = \relative c'' {
 
   s1
 
-  \clef "treble"
-
   s1
 
   r2 <gis, cis>2
@@ -277,14 +275,14 @@ harmony = \relative c'' {
     fis,8[ b dis]
     fis,8[ b dis]
 
-    \clef "treble"
+    \ottava #-1
 
     cis,8[ fis a]
     cis,8[ fis a]
     cis,8[ fis gis]
     cis,8[ eis gis]
 
-    \clef "treble^8"
+    \ottava #0
 
     % part 3
     fis8[ a cis]
@@ -359,7 +357,7 @@ harmony = \relative c'' {
     dis8[ a bis]
     fis8[ a dis,]
 
-    \clef "treble"
+    \ottava #-1
 
     fis8[ bis, dis]
     a8[ bis fis]
@@ -386,7 +384,7 @@ harmony = \relative c'' {
     dis,8[ gis bis]
     dis,8[ fis bis]
 
-    \clef "treble^8"
+    \ottava #0
 
     % part 6
     e,8[ gis cis]
@@ -516,12 +514,14 @@ harmony = \relative c'' {
     r8 e[ gis]
     cis8[ gis e]
 
-    \clef "treble"
+    \ottava #-1
 
     r8 cis[ e]
     gis8[ e cis]
     gis8[ cis gis]
     e8[ gis e]
+
+    \ottava #0
   }
 
   s1
