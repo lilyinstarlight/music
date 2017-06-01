@@ -695,7 +695,7 @@ keys = \new Staff {
       \melody
     }
 
-    \new Voice= "harmony" {
+    \new Voice = "harmony" {
       \voiceTwo
       \harmony
     }
