@@ -11,7 +11,7 @@ main_tempo = \tempo 4 = 80
 main_key = \key a \major
 
 melody = \relative c'' {
-  % verse 1
+  % intro
   cis4\mp d e4. a,8
   b8 a2..
 
@@ -24,7 +24,8 @@ melody = \relative c'' {
   e4 d e a
   g2 d2
 
-  % verse 1 (second)
+  % verse 1
+  \main_tempo
   cis4\mf d e a,
   b4 a e2
 
@@ -122,14 +123,14 @@ melody = \relative c'' {
     \tempo 4 = 58 <g d'>2 \tempo 4 = 54 <f c'>4 d'
 
     \tempo 4 = 50 <f, f'>4 <g e'> \tempo 4 = 46 <aes c> \tempo 4 = 42 <aes g'>
-    \ottava #-1 <e, c'>1 \ottava #0
+    \ottava #-1 <e, c'>1\arpeggio \ottava #0
   }
 
   \bar "|."
 }
 
 bass = \relative c' {
-  % verse 1
+  % intro
   a1
   gis1
 
@@ -142,7 +143,7 @@ bass = \relative c' {
   f1
   g1
 
-  % verse 1 (second)
+  % verse 1
   a1
   gis1
 
@@ -226,7 +227,7 @@ bass = \relative c' {
   bes2 a
 
   aes4 r2.
-  <c, g'>1
+  <c, g'>1\arpeggio
 
   \bar "|."
 }
@@ -234,7 +235,7 @@ bass = \relative c' {
 keys = \new Staff {
   \clef "treble"
 
-  \main_tempo
+  \tempo 4 = 60
   \main_key
 
   \melody
@@ -243,7 +244,7 @@ keys = \new Staff {
 pedals = \new Staff {
   \clef "treble_8"
 
-  \main_tempo
+  \tempo 4 = 60
   \main_key
 
   \bass
