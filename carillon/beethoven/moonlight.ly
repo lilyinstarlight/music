@@ -272,8 +272,8 @@ harmony = \relative c'' {
 
     g,8[ b d]
     g,8[ b d]
-    fis,8[ b dis]
-    fis,8[ b dis]
+    fis,8[ a dis]
+    fis,8[ a dis]
 
     \ottava #-1
 
