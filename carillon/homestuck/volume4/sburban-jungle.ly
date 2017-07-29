@@ -256,17 +256,7 @@ keys = \new Staff {
   \main_tempo
   \main_key
 
-  <<
-    \new Voice = "melody" {
-      \voiceOne
-      \melody
-    }
-
-    \new Voice = "harmony" {
-      \voiceTwo
-      \harmony
-    }
-  >>
+  \melody
 }
 
 pedals = \new Staff {
@@ -284,6 +274,6 @@ pedals = \new Staff {
     \pedals
   >>
 
-  \midi {}
   \layout {}
+  \midi {}
 }

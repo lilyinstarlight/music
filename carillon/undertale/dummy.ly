@@ -80,6 +80,6 @@ pedals = \new Staff {
     \pedals
   >>
 
-  \midi {}
   \layout {}
+  \midi {}
 }
