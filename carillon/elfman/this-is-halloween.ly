@@ -42,6 +42,12 @@ melody = \relative c'' {
   fis4. <a cis>8 <gis b>4. <fis a>8
   dis8 <cis a> <cis gis> <cis fis> ais'2
 
+  <g, ees'>8 <g ees'> <g ees'>16 <f d'> <ees c'>8 <g ees'>8 <g ees'> <g ees'>16 <f d'> <ees c'>8
+  <dis' b'>16 <cis ais'> <b gis'>8 <dis b'>16 <cis ais'> <b gis'>8 <c aes'>16 <bes g'> <aes f'>8 <c aes'>16 <bes g'> <aes f'>8
+  \time 2/4 aes'16 g f c f g aes bes
+  \time 4/4 <dis, gis b>8 <dis gis b> <e gis b>4 <dis gis b>8 <dis gis b> <e gis b>4
+  <dis gis b>16 <dis gis b> <dis gis b>8 <dis gis b> <cis ais'>16 <b gis'> <ais g'>8 dis <gis, dis' gis>4
+
   \bar "|."
 }
 
@@ -73,6 +79,12 @@ harmony = \relative c'' {
   \time 4/4 s1
   s1
   s1
+  s1
+
+  s1
+  s1
+  \time 2/4 s2
+  \time 4/4 s1
   s1
 
   \bar "|."
@@ -107,6 +119,12 @@ bass = \relative c' {
   fis4 cis dis ais
   fis'4 cis fis cis
   fis4 cis dis8 ais' fis dis
+
+  c4 g c g
+  gis8 dis gis dis f c f c
+  \time 2/4 s2
+  \time 4/4 ges'4 e ges e
+  dis'4 b  dis16 cis b ais gis4
 
   \bar "|."
 }
