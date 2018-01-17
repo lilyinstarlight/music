@@ -36,7 +36,7 @@ melody = \relative c'' {
   fis8 <d fis> <d g>4 fis16 fis <d fis> fis <d g>8 <d fis>
   \time 3/4 <f, a>8 <a d f> <a d f> <f a> <e gis> a16 b
 
-  % part 2
+  % part two
   \time 4/4 cis4. a'8 gis4. fis8
   dis8 cis dis fis gis4. ais8
   fis4. <a cis>8 <gis b>4. <fis a>8
@@ -47,6 +47,10 @@ melody = \relative c'' {
   \time 2/4 aes'16 g f c f g aes bes
   \time 4/4 <dis, gis b>8 <dis gis b> <e gis b>4 <dis gis b>8 <dis gis b> <e gis b>4
   <dis gis b>16 <dis gis b> <dis gis b>8 <dis gis b> <cis ais'>16 <b gis'> <ais g'>8 dis <gis, dis' gis>4
+
+  % part three
+  %\key c \minor <f, aes c>8 <f aes c> <f aes des>4. <f aes c>4 <f aes c>8
+  %r8 <aes ces ees>4 <aes ces ees> <bes d f>8 <bes d ges>4
 
   \bar "|."
 }
@@ -87,6 +91,10 @@ harmony = \relative c'' {
   \time 4/4 s1
   s1
 
+  % part three
+  %\key c \minor s1
+  %s1
+
   \bar "|."
 }
 
@@ -114,7 +122,7 @@ bass = \relative c' {
   b4 g b g8 b
   \time 3/4 d,4 f e
 
-  % part 2
+  % part two
   \time 4/4 fis4 cis fis cis
   fis4 cis dis ais
   fis'4 cis fis cis
@@ -122,9 +130,13 @@ bass = \relative c' {
 
   c4 g c g
   gis8 dis gis dis f c f c
-  \time 2/4 s2
+  \time 2/4 r2
   \time 4/4 ges'4 e ges e
   dis'4 b  dis16 cis b ais gis4
+
+  % part three
+  %\key c \minor c4 f, c' f,
+  %ees'4 aes, ees' aes,
 
   \bar "|."
 }
@@ -256,14 +268,14 @@ keys = \new Staff {
       \melody
     }
 
-    %\new Lyrics \lyricsto "melody" {
-    %  \words
-    %}
-
     \new Voice = "harmony" {
       \voiceTwo
       \harmony
     }
+
+    %\new Lyrics \lyricsto "melody" {
+    %  \words
+    %}
   >>
 }
 
