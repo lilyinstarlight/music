@@ -38,7 +38,7 @@ melody = \relative c'' {
   g,4 bes c g
   bes4 c8 des r d ges4
   g,4 bes c ees
-  d8 ees4 d8 fis2
+  d8 ees4 d8 ges2
 
   \bar "|."
 }
