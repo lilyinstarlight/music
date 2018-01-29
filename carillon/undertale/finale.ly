@@ -28,7 +28,7 @@ melody = \relative c'' {
   \repeat volta 2 {
     <c, aes'>4 aes'8 bes c4 aes
     bes4 bes8 c g4 ees
-    <c ees aes>4 aes'8 bes c4 aes'
+    <ees aes>4 aes'8 bes c4 aes'
     <f, g'>4 ees' bes g
 
     <c, ees aes>4 aes'8 bes c4 aes

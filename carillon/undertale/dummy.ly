@@ -7,7 +7,7 @@
   arranger = "Foster McLane"
 }
 
-main_tempo = \tempo 2 = 80
+main_tempo = \tempo 2 = 120
 main_key = \key g \minor
 
 melody = \relative c'' {
