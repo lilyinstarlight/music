@@ -53,7 +53,7 @@ melody = \relative c'' {
     <a, e'>1
     <d, fis>2 <a' e'>4 <e cis'>
     <d b'>4 <cis a'> <b gis'> <cis a'>
-    <a gis'>4. a'16 ais <eis b'>2
+    <cis gis'>4. a'16 ais <eis b'>2
     <fis b>4 <cis a'> <b gis'> <cis a'>
   }
 
