@@ -278,7 +278,7 @@ pedals = \new Staff {
 }
 
 \score {
-  %\unfoldRepeats
+  \unfoldRepeats
   <<
     \keys
     \pedals
