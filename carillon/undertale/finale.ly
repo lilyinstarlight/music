@@ -7,7 +7,7 @@
   arranger = "Janne Sala & Foster McLane"
 }
 
-main_tempo = \tempo 4 = 185
+main_tempo = \tempo 4 = 160
 main_key = \key aes \major
 
 melody = \relative c'' {
@@ -28,7 +28,7 @@ melody = \relative c'' {
   \repeat volta 2 {
     <c, aes'>4 aes'8 bes c4 aes
     bes4 bes8 c g4 ees
-    <ees aes>4 aes'8 bes c4 aes'
+    <ees aes>4 aes8 bes c4 aes'
     <f, g'>4 ees' bes g
 
     <c, ees aes>4 aes'8 bes c4 aes
@@ -58,6 +58,32 @@ melody = \relative c'' {
 
   a,4 a8 bes c4 \grace e16 f4
   d2 c8 c c c
+
+  % part 4
+  \repeat volta 2 {
+    <f, aes>4 aes8 bes c4 aes
+    bes4 bes8 c g4 ees
+    aes4 aes8 bes c aes c aes'
+    g4 ees bes g
+
+    <f aes>4 aes8 ees' f4 c
+    bes4 bes8 c bes4 aes
+    <f bes>4 bes8 c bes4 aes
+    <e g bes>2 c'
+  }
+
+  % part 5
+  \repeat volta 2 {
+    <c, f aes>4 aes'8 bes c4 aes
+    <f aes bes>4 bes8 c g4 ees
+    aes4 aes8 bes c aes c ees
+    g4 ees8 bes c4 ees
+
+    <f, f'>4 c'8 ees f4 c
+    bes4 bes8 c bes4 aes
+    f8 aes bes c ees c aes f
+    bes8 <c, f aes> bes' <c, f aes> c' <c, e g> c' <c, e g>
+  }
 
   \bar "|."
 }
@@ -110,6 +136,32 @@ bass = \relative c {
 
   a1~
   a1
+
+  % part 4
+  \repeat volta 2 {
+    r8 bes f bes r bes f bes
+    r8 bes f bes r bes f bes
+    r8 c aes c r c aes c
+    r8 c aes c r c aes c
+
+    r8 des aes des r des aes des
+    r8 des aes des r des aes des
+    r8 des aes des r des aes des
+    r8 c g c r c g c
+  }
+
+  % part 5
+  \repeat volta 2 {
+    r8 bes f bes r bes f bes
+    r8 bes f bes r bes f bes
+    r8 c aes c r c aes c
+    r8 c aes c r c aes c
+
+    r8 des aes des r des aes des
+    r8 des aes des r des aes des
+    r8 des aes des r des aes des
+    r8 c g c r c g c
+  }
 
   \bar "|."
 }
