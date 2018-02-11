@@ -84,8 +84,6 @@ melody = \relative c'' {
     f8 aes bes c ees c aes f
     bes8 <c, f aes> bes' <c, f aes> c' <c, e g> c' <c, e g>
   }
-
-  \bar "|."
 }
 
 bass = \relative c {
@@ -162,8 +160,6 @@ bass = \relative c {
     r8 des aes des r des aes des
     r8 c g c r c g c
   }
-
-  \bar "|."
 }
 
 keys = \new Staff {

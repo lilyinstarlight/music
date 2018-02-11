@@ -7,7 +7,7 @@
   arranger = "Foster McLane"
 }
 
-main_tempo = \tempo 2 = 120
+main_tempo = \tempo 2 = 100
 main_key = \key g \minor
 
 melody = \relative c'' {
@@ -70,8 +70,36 @@ bass = \relative c' {
   d'4 bes g ees
   g8 g f4 fes ees
   d'4 bes g ees
-  c'8 c bes4 c des
-  d4 e ges d
+  r1
+  r1
+
+  % part 2
+  g8 g ges4 f fes
+  ees4 bes' a ges
+  g8 g ges4 f fes
+  ees4 g ges d
+  g8 g ges4 f fes
+  ees4 bes' a ges
+  bes8 bes g4 bes c
+  d,4 e ges d
+
+  g8 g ges4 f fes
+  ees4 bes' a ges
+  ees4 bes' a ges
+  ees4 bes' a ges
+  g8 g ges4 f fes
+  ees4 g ges d
+  ees4 g ges d
+  ees4 g ges d
+
+  g8 g ges4 f fes
+  ees4 bes' a ges
+  ees4 bes' a ges
+  ees4 bes' a ges
+  g8 g ges4 f fes
+  ees4 bes' a ges
+  c8 c bes4 c des
+  d,8 d ges g~ g2
 
   \bar "|."
 }
