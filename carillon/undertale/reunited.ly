@@ -47,13 +47,13 @@ melody = \relative c'' {
     b4 a gis a
   }
   \repeat volta 2 {
-    <a, e'>2 <a' e'>4 <e cis'>
+    e2 <a e'>4 <e cis'>
     <d b'>4 <cis a'> <b gis'> <cis a'>
     <e b'>2 <cis' gis'>4. g'16 fis
     <a, e'>1
     <d, fis>2 <a' e'>4 <e cis'>
-    <d b'>4 <cis a'> <b gis'> <cis a'>
-    <cis gis'>4. a'16 ais <eis b'>2
+    <d b'>4 a' <b, gis'> a'
+    <cis, gis'>4. a'16 ais <eis b'>2
     <fis b>4 <cis a'> <b gis'> <cis a'>
   }
 
@@ -240,8 +240,8 @@ bass = \relative c' {
   % part 8
   <d, fis>1~
   <d fis>1
-  <cis e>1~
-  <cis e>1
+  <e cis'>1~
+  <e cis'>1
   c4 g' e' d~
   d4 c d e
   d,2. e4~
