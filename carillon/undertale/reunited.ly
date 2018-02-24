@@ -30,7 +30,7 @@ melody = \relative c'' {
     a2 e'
     e,2 <a a'>8 <b gis'> <a e'> <gis b>
     e2 a
-    e'2 <gis b>8 <a cis> <e fis b> <fis a>
+    e'2 <gis b>8 <a cis> <e b'> <fis a>
     e2 b
     <a d a'>4 <d, fis cis'> <b a'> <d gis b>
   }
@@ -52,8 +52,8 @@ melody = \relative c'' {
     <e b'>2 <cis' gis'>4. g'16 fis
     <a, e'>1
     <d, fis>2 <a' e'>4 <e cis'>
-    <d b'>4 a' <b, gis'> a'
-    <cis, gis'>4. a'16 ais <eis b'>2
+    <d b'>4 <cis a'> <b gis'> <cis a'>
+    <cis gis'>4. a'16 ais <eis b'>2
     <fis b>4 <cis a'> <b gis'> <cis a'>
   }
 
@@ -172,8 +172,8 @@ bass = \relative c' {
     gis, cis gis cis
     g c g c
     fis, b fis b
-    gis cis gis cis
-    eis, cis' eis, cis'
+    gis a gis a
+    eis cis' eis, cis'
     fis, cis' gis b
   }
 
