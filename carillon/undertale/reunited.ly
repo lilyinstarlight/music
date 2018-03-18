@@ -174,7 +174,7 @@ bass = \relative c' {
     fis, b fis b
     gis a gis a
     eis cis' eis, cis'
-    fis, cis' gis b
+    fis, a gis b
   }
 
   % part 4
