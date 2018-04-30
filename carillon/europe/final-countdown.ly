@@ -17,7 +17,7 @@ melody = \relative c'' {
   d4 r8 f16 e f4 a,4~
   a4 r8 d16 c d8 c b d
 
-  a4 r8 e'16 d e4 a,4~
+  c4 r8 e16 d e4 a,4~
   a4 r8 f'16 e f8 e d4~
   d4 r8 f16 e f4 a,4~
   a4 r8 d16 c d8 c b d
@@ -34,7 +34,7 @@ melody = \relative c'' {
     d4 r8 f16 e f4 a,4~
     a4 r8 d16 c d8 c b d
 
-    a4 r8 e'16 d e4 a,4~
+    c4 r8 e16 d e4 a,4~
     a4 r8 f'16 e f8 e d4~
     d4 r8 f16 e f4 a,4~
     a4 r8 d16 c d8 c b d
@@ -77,7 +77,7 @@ melody = \relative c'' {
   d4 r8 f16 e f4 a,4~
   a4 r8 d16 c d8 c b d
 
-  a4 r8 e'16 d e4 a,4~
+  c4 r8 e16 d e4 a,4~
   a4 r8 f'16 e f8 e d4~
   d4 r8 f16 e f4 a,4~
   a4 r8 d16 c d8 c b d

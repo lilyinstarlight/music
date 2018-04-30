@@ -82,7 +82,7 @@ melody = \relative c'' {
     <f, f'>4 c'8 ees f4 c
     bes4 bes8 c bes4 aes
     f8 aes bes c ees c aes f
-    bes8 <c, f aes> bes' <c, f aes> c' <c, e g> c' <c, e g>
+    bes8 <f aes> bes <f aes> c' <e, g> c' <e, g>
   }
 }
 
