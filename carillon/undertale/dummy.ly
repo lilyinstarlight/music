@@ -12,16 +12,22 @@ main_key = \key g \minor
 
 melody = \relative c'' {
   % intro
-  <e g>4 <g bes> <a c> <e g>
-  <g bes>4 <a c>8 <ais cis> r <b d> <a fis>4
   <e, g>4 <g bes> <a c> <e g>
+  <g bes>4 <a c>8 <ais cis> r <b d> <a fis'>4
+  <e g>4 <g bes> <a c> <e g>
   <g bes>4 <ais cis>8 <b d> r <d f> <c a'>4
   <e, g>4 <g bes> <a c> <e g>
-  <g bes>4 <a c>8 <ais cis> r <b d> <a fis>4
-  <e, g>4 <g bes> <ees ges> <fis a>
+  <g bes>4 <a c>8 <ais cis> r <b d> <a fis'>4
+  <e g>4 <g bes> <ees ges> <fis a>
   <d f>8. f16 <f aes>8. a16 <b, d>8. d16 <d fis>4
 
   % part 1
+  <e, g>4 <g bes> <a c> <e g>
+  <g bes>4 <a c>8 <ais cis> r <b d> <a fis'>4
+  <e g>4 <g bes> <a c> <e g>
+  <g bes>4 <ais cis>8 <b d> r <d f> <c a'>4
+  <e, g>4 <g bes> <a c> <e g>
+  <g bes>4 <a c>8 <ais cis> r <b d> <a fis'>4
 
   \bar "|."
 }

@@ -46,6 +46,17 @@ melody = \relative c' {
   <fis a c d>4 <fis a c d> <fis a c d> <fis a c d>
   <fis a c d>8 b d b d b d4
 
+  % chorus
+  <g, b e>2 d'4 e8 <g, b d>
+  r8 b d b d b a g
+  <d a'>2 <g b>4 a8 g~
+  g8 <b, e>4. r4 g''8 e
+
+  <c g'>8 g' g <gis, e'>4. g'8 e
+  <c g'>8 g' g <g, e'>4. g'8 e
+  g8 e d <c e g>4 g' <c, e>8~
+  <c e>8 g, g e g e g4
+
   \bar "|."
 }
 
@@ -83,6 +94,17 @@ bass = \relative c {
 
   d4 d d d
   d,4 r2.
+
+  % chorus
+  g4 g8 g g4 g
+  g4 g d dis
+  e4 e8 e e4 e
+  e4 e g gis
+
+  a4 a a a
+  g4 g g g
+  d'4 d d, d
+  d4 d d fis
 
   \bar "|."
 }
