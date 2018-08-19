@@ -12,24 +12,25 @@ main_key = \key c \major
 
 melody = \relative c''' {
   % part 1
-  a8.\f a a8 s2
-  b8. b b8 s2
-  c8. c c8 s2
-  b8. b b8 s2
+  a8.\f a a8 r2
+  b8. b b8 r2
+  c8. c c8 r2
+  b8. b b8 r2
 
-  a8. a a8 s2
-  a8. a a8 s2
-  g8. g g8 s2
-  a8. a a8 s2
+  a8. a a8 r2
+  a8. a a8 r2
+  g8. g g8 r2
+  a8. a a8 r2
 
-  a8. a a8 s2
-  b8. b b8 s2
-  c8. c c8 s2
-  b8. b b8 s2
+  a8. a a8 a,8 a'16 g e ees d c
+  b'8. b b8 a,8 a'16 g e ees d c
+  c'8. c c8 a,8 a'16 g e ees d c
+  b'8. b b8 a,8 a'16 g e ees d c
 
-  a8. a a8 s2
-  a8. a a8 s2
-  g,,16 a c f g a b c b g d b c b a g
+  a'8. a a8 a,8 a'16 g e ees d c
+  a'8. a a8 a,8 a'16 g e ees d c
+
+  g,16 a c f g a b c b g d b c b a g
   g16 b d g b d g b g d b a b a g b
 
   c8. c \grace c16 b8. b \grace b16 g8. g16
@@ -49,8 +50,8 @@ melody = \relative c''' {
   r1\f
   r1
 
-  s1
-  s1
+  d16 e e d e e g a d, e e d g e d e
+  d16 e e d e e g a d, e e d g e e d
 
   % TODO
 
@@ -160,160 +161,6 @@ melody = \relative c''' {
   r <fis b> r r <fis ais> r <e gis> r
   <cis fis> r r <e gis> r r <fis ais> r
   r <cis fis> r r <fis ais> r <cis fis> r
-
-  \bar "|."
-}
-
-harmony = \relative c'' {
-  % part 1
-  s1\f
-  s1
-  s1
-  s1
-
-  s1
-  s1
-  s1
-  s1
-
-  s2 a8 a'16 g e ees d c
-  s2 a8 a'16 g e ees d c
-  s2 a8 a'16 g e ees d c
-  s2 a8 a'16 g e ees d c
-
-  s2 a8 a'16 g e ees d c
-  s2 a8 a'16 g e ees d c
-  s1
-  s1
-
-  s1
-
-  % part 2
-  s1
-  s1
-  s1
-  s1
-
-  s1
-  s1
-  s1
-  s1
-
-  % part 3
-  s1
-  s1
-
-  d16 e e d e e g a d, e e d g e d e
-  d16 e e d e e g a d, e e d g e e d
-
-  % TODO
-
-  % part 11
-  \key g \minor s1
-  s1
-  s1
-  s1
-
-  s1
-  s1
-  s1
-  s1
-
-  s1
-  s1
-  s1
-  s1
-
-  s1
-  s1
-  s1
-  s1
-
-  % part 12
-  s1
-  s1
-  s1
-  s1
-
-  s1
-  s1
-  s1
-  s1
-
-  s1
-  s1
-  s1
-  s1
-
-  s1
-  s1
-  s1
-  s1
-
-  s1
-  s1
-  s1
-  s1
-
-  s1
-  s1
-  s1
-  s1
-
-  % part 13
-  s1
-  s1
-  s1
-  s1
-
-  s1
-  s1
-  s1
-  s1
-
-  s1
-  s1
-  s1
-  s1
-
-  s1
-  s1
-  s1
-  s1
-
-  % TODO
-
-  % part 14
-  \tempo 4 = 125 \key b \major s1
-  s1
-  s1
-  s1
-
-  s1
-  s1
-  s1
-  s1
-
-  s1
-  s1
-  s1
-  s1
-
-  s1
-  s1
-  s1
-  s1
-
-  % part 15
-  s1
-  s1
-  s1
-  s1
-
-  s1
-  s1
-  s1
-  s1
 
   \bar "|."
 }
@@ -478,17 +325,7 @@ keys = \new Staff {
   \main_tempo
   \main_key
 
-  <<
-    \new Voice = "melody" {
-      \voiceOne
-      \melody
-    }
-
-    \new Voice = "harmony" {
-      \voiceTwo
-      \harmony
-    }
-  >>
+  \melody
 }
 
 pedals = \new Staff {
