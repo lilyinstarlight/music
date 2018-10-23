@@ -11,53 +11,165 @@ main_tempo = \tempo "Fabulously" 2 = 148
 main_key = \key d \major
 
 melody_one = \relative c'' {
+  % intro
+  r1
+  r1
+  r1
+  r1
+
+  r1
+  r1
+  r1
+  r1
+
+  r1
+  r1
+  r1
+  r1
+
+  r1
+  r1
+  r1
+  r1
+
   % part 1
-  r1
-  r1
-  r1
-  r1
-  r1
-  r1
-  r1
-  r1
+  <e g b>2 <e a cis>
+  <e b' d>4. <e a cis> <e g b>4~
+  <e g b>4 <e g b> <e a cis>2
+  <e b' d>4. <e a cis>2 r8
 
-  r1
-  r1
-  r1
-  r1
-  r1
-  r1
-  r1
-  r1
-}
+  <e g b>2 <e a cis>
+  <e b' d>4. <e a cis> <e g b>4~
+  <e g b>4 <e g b> <e a cis>2
+  <e b' d>4. <e a cis>2 r8
 
-melody_two = \relative c'' {
-  % part 1
-  r1
-  r1
-  r1
-  r1
-  r1
-  r1
-  r1
-  r1
+  <e g b>2 <e a cis>
+  <e b' d>4. <e a cis> <e g b>4~
+  <e g b>4 <e g b> <e a cis>2
+  <e b' d>4. <e a cis>2 r8
 
-  r1
-  r1
-  r1
-  r1
-  r1
-  r1
-  r1
-  r1
+  <e g b>2 <e a cis>
+  <e b' d>4. <e a cis> <e g b>4~
+  <e g b>4 <e g b> <e a cis>2
+  <e b' d>4. <e a cis>2 r8
 }
 
 bass_one = \relative c {
+  % intro
+  r1
+  r1
+  r1
+  r1
+
+  r1
+  r1
+  r1
+  r1
+
+  r1
+  r1
+  r1
+  r1
+
+  r1
+  r1
+  r1
+  r1
+
+  % part 1
+  fis1~
+  fis1~
+  fis1
+  g2 a2
+
+  fis1~
+  fis1~
+  fis1
+  d2 fis2
+
+  e1~
+  e1~
+  e1~
+  e2 r8 fis g gis
+
+  a1~
+  a1~
+  a1
+  r1
+}
+
+melody_two = \relative c {
+  % intro
+  r1
+  r1
+  r1
+  r1
+
+  r1
+  r1
+  r1
+  r1
+
+  e4. e'8 b4 e,
+  g4 e' g, a~
+  a4 a b g
+  a4. a8 b4 g
+
+  e4. e'8 b4 e,
+  g4 e' g, a~
+  a4 a b g
+  a4. a8 b4 g
+
+  % part 1
+  e4. e'8 b4 e,
+  g4 e' g, a~
+  a4 a b g
+  a4. a8 b4 g
+
+  e4. e'8 b4 e,
+  g4 e' g, a~
+  a4 a b g
+  a4. a8 b4 g
+
+  e4. e'8 b4 e,
+  g4 e' g, a~
+  a4 a b g
+  a4. a8 b4 g
+
+  e4. e'8 b4 e,
+  g4 e' g, a~
+  a4 a b g
+  a4. a8 b4 g
+}
+
+bass_two = \relative c {
+  % intro
+  e2 g
+  d'4. cis e,4~
+  e4 e g2
+  d'4. cis2 r8
+
+  e,2 g
+  d'4. cis e,4~
+  e4 e g2
+  d'4. cis2 r8
+
+  e,2 g
+  d'4. cis e,4~
+  e4 e g2
+  d'4. cis2 r8
+
+  e,2 g
+  d'4. cis e,4~
+  e4 e g2
+  d'4. cis2 r8
+
   % part 1
   e2 g
   d'4. cis e,4~
   e4 e g2
   d'4. cis2 r8
+
   e,2 g
   d'4. cis e,4~
   e4 e g2
@@ -67,31 +179,11 @@ bass_one = \relative c {
   d'4. cis e,4~
   e4 e g2
   d'4. cis2 r8
+
   e,2 g
   d'4. cis e,4~
   e4 e g2
   d'4. cis2 r8
-}
-
-bass_two = \relative c {
-  % part 1
-  r1
-  r1
-  r1
-  r1
-  r1
-  r1
-  r1
-  r1
-
-  e4. e'8 b4 e,
-  g4 e' g, a~
-  a4 a b g
-  a4. a8 b4 g
-  e4. e'8 b4 e,
-  g4 e' g, a~
-  a4 a b g
-  a4. a8 b4 g
 }
 
 keys_one = \new Staff {
@@ -103,15 +195,6 @@ keys_one = \new Staff {
   \melody_one
 }
 
-keys_two = \new Staff {
-  \clef "treble"
-
-  \main_tempo
-  \main_key
-
-  \melody_two
-}
-
 pedals_one = \new Staff {
   \clef "treble_8"
 
@@ -119,6 +202,15 @@ pedals_one = \new Staff {
   \main_key
 
   \bass_one
+}
+
+keys_two = \new Staff {
+  \clef "treble_8"
+
+  \main_tempo
+  \main_key
+
+  \melody_two
 }
 
 pedals_two = \new Staff {
@@ -133,8 +225,8 @@ pedals_two = \new Staff {
 \score {
   <<
     \keys_one
-    \keys_two
     \pedals_one
+    \keys_two
     \pedals_two
   >>
 
