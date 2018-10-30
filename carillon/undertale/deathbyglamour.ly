@@ -106,6 +106,12 @@ melody_one = \relative c'' {
       |
     }
   }
+
+  % part 5
+  \repeat volta 2 {
+    r4 <e g c> r <e g c>
+    r4 <e g c> r <e g c>
+  }
 }
 
 bass_one = \relative c {
@@ -166,7 +172,7 @@ bass_one = \relative c {
 
   % part 3
   \repeat volta 2 {
-    e2 r2
+    e'2 r2
     r1
     r1
     r1
@@ -200,6 +206,44 @@ bass_one = \relative c {
       e2 r2
       e2 r2
       e4 r2.
+
+      |
+    }
+  }
+
+  % part 5
+  \repeat volta 2 {
+    c4 r c r
+    c4 r c r
+    b4 r b r
+    b4 r b r
+
+    a4 r a r
+    b4 r b r
+    e4 r fis r
+    g4 r a r
+
+    c,4 r c r
+    c4 r c r
+    b4 r b r
+    b4 r b r
+
+    |
+  }
+  \alternative {
+    {
+      a4 r a r
+      b4 r b r
+      e4 r fis r
+      g4 r a r
+
+      |
+    }
+    {
+      a,4 r a r
+      b4 r b r
+      <g b>4. <g b> <g b>4
+      <g b>2 <g b>
 
       |
     }
@@ -298,6 +342,44 @@ melody_two = \relative c {
       g4 e' g, a~
       a4 a b g
       a4 r2.
+
+      |
+    }
+  }
+
+  % part 5
+  \repeat volta 2 {
+    c2 r8 g e c
+    e2. c4
+    dis2 b
+    b'2 bes
+
+    a2. fis4
+    ees2. b'4
+    e8 dis e r fis e fis r
+    g2 e,8 e g b
+
+    c2 r8 g e c
+    e2. c4
+    dis2 b
+    b'2 bes
+
+    |
+  }
+  \alternative {
+    {
+      a2. fis4
+      ees2. b'4
+      g'4 a8 g fis4 d
+      e2 e,8 e g b
+
+      |
+    }
+    {
+      a2. fis4
+      ees2. r4
+      <e g>4. <e g> <e g>4
+      <e g>2 <e g>
 
       |
     }
