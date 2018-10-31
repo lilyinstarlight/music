@@ -182,6 +182,13 @@ melody_one = \relative c'' {
       |
     }
   }
+
+  % part 7
+  \main_key
+  \repeat volta 2 {
+  }
+
+  \bar "|."
 }
 
 bass_one = \relative c {
@@ -356,6 +363,13 @@ bass_one = \relative c {
       |
     }
   }
+
+  % part 7
+  \main_key
+  \repeat volta 2 {
+  }
+
+  \bar "|."
 }
 
 melody_two = \relative c {
@@ -530,6 +544,13 @@ melody_two = \relative c {
       |
     }
   }
+
+  % part 7
+  \main_key
+  \repeat volta 2 {
+  }
+
+  \bar "|."
 }
 
 bass_two = \relative c {
@@ -704,6 +725,13 @@ bass_two = \relative c {
       |
     }
   }
+
+  % part 7
+  \main_key
+  \repeat volta 2 {
+  }
+
+  \bar "|."
 }
 
 keys_one = \new Staff {
