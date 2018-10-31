@@ -186,7 +186,22 @@ melody_one = \relative c'' {
   % part 7
   \main_key
   \repeat volta 2 {
+    <e g b>2 <e a cis>
+    <e b' d>4. <e a cis> <e g b>4~
+    <e g b>4 <e g b> <e a cis>2
+    <e b' d>4. <e a cis>2 r8
+
+    <e g b>2 <e a cis>
+    <e b' d>4. <e a cis> <e g b>4~
+    <e g b>4 <e g b> <e a cis>2
+    <e b' d>4. <e a cis>2 r8
   }
+
+  % outro
+  a8 g fis e d b a g
+  e8 d b d e g a b
+  e4. e8 b4 b
+  g4 g e2
 
   \bar "|."
 }
@@ -367,7 +382,22 @@ bass_one = \relative c {
   % part 7
   \main_key
   \repeat volta 2 {
+    e2 g
+    d4. cis e,4~
+    e4 e g2
+    d'4. cis2 r8
+
+    e,2 g
+    d'4. cis e,4~
+    e4 e g2
+    d'4. cis2 r8
   }
+
+  % outro
+  b2 cis
+  d4. cis b4~
+  b4 b cis2
+  d4. r8 r2
 
   \bar "|."
 }
@@ -548,7 +578,22 @@ melody_two = \relative c {
   % part 7
   \main_key
   \repeat volta 2 {
+    e,,4. e'8 b4 e,
+    g4 e' g, a~
+    a4 a b g
+    a4. a8 b4 g
+
+    e4. e'8 b4 e,
+    g4 e' g, a~
+    a4 a b g
+    a4. a8 b4 g
   }
+
+  % outro
+  e4. e'8 b4 e,
+  g4 e' g, a~
+  a4 a b g
+  a4. r8 r2
 
   \bar "|."
 }
@@ -729,7 +774,22 @@ bass_two = \relative c {
   % part 7
   \main_key
   \repeat volta 2 {
+    r1
+    r1
+    r1
+    r1
+
+    r1
+    r1
+    r1
+    r1
   }
+
+  % outro
+  e2 g
+  d'4. cis e,4~
+  e4 e g2
+  d'4. r8 r2
 
   \bar "|."
 }
