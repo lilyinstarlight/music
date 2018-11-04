@@ -170,13 +170,13 @@ melody_one = \relative c'' {
   }
   \alternative {
     {
-      bis4. bis cis4
+      b4. b cis4
       dis r cis b
 
       |
     }
     {
-      bis4. bis cis4
+      b4. b cis4
       dis r cis b
 
       |
