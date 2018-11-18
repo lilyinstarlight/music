@@ -33,6 +33,18 @@ melody = \relative c'' {
   <c ees>8 <bes des> <aes c>4 <aes c>8 <ges bes> <f aes>4
   <ees' ges>4 <bes des> <aes ees'>8 <ges c> <f aes> f
 
+  r4 \grace { aes'8 a } <bes, ees ges bes>8 r r <ges bes ees ges> r4
+  <aes c>4 <bes des>8 <aes c>~ <aes c> <ges bes> <aes c> <bes des>
+  r4 \grace { ees8 fes } <ges, bes des f>8 r r <ges bes ees ges> r4
+  <ees ges ces ees>4 <bes' ees ges bes>8 <aes des f aes>~ <aes des f aes>2
+
+  r4 \grace { aes'8 a } <bes, ees ges bes>8 r r <ges bes ees ges> r4
+  <aes c>4 <bes des>8 <aes c>~ <aes c> <ges bes> <aes c> <bes des>
+  \ottava #1 <c' ees>8 <bes des> <aes c>4 <aes c>8 <ges bes> <f aes>4
+  \ottava #0 <bes, des ges>4 <ges' bes des> <c ees>8 <aes c> <f aes> <des f>
+
+  % part 3
+
   \bar "|."
 }
 
@@ -61,6 +73,18 @@ bass = \relative c {
   ges4 bes8 aes~ aes ees' c aes
   ges4 ges r8 bes r bes
   ges4 bes aes8 aes bes des
+
+  r4 <ges, bes>8 r r <ges bes> r4
+  ges4 bes8 aes~ aes ees' c aes
+  r4 <ees ges>8 r r <ees ges> r4
+  ges4 r4 r8 f ees des
+
+  r4 <ges bes>8 r r <ges bes> r4
+  ges4 bes8 aes~ aes ees' c aes
+  ges8 ges r aes aes aes r aes
+  ges4 bes aes8 aes bes des
+
+  % part 3
 
   \bar "|."
 }
