@@ -44,6 +44,25 @@ melody = \relative c'' {
   \ottava #0 <bes, des ges>4 <ges' bes des> <c ees>8 <aes c> <f aes> <des f>
 
   % part 3
+  r4 ges, ces ees
+  \grace { f8 } ges2 ees
+  d4 ees f2
+  ees4 bes ges f
+
+  \grace { aes8 } <ees a>1~
+  <ees a>1
+  bes'4 \grace { d8 } ees4 des a
+  aes8 ges4 ees8 r des' a aes
+
+  ges4 ees ces' ees
+  ges2 \grace { d'8 } ees2
+  d4 c d2
+  ees4 bes ges f
+
+  d1
+  <d f>8 <c e> <d f> <c e> <d f> <c e> <d f> <c e>
+
+  % part 4
 
   \bar "|."
 }
@@ -85,6 +104,25 @@ bass = \relative c {
   ges4 bes aes8 aes bes des
 
   % part 3
+  r4 ges, r aes
+  r4 ges r f
+  r4 f r aes
+  r4 ges r f
+
+  r4 <ges bes> r <aes c>
+  r4 <ges bes> r <f a>
+  r4 <ges bes> r <aes c>
+  r4 <ges bes> r <aes c>
+
+  r4 ges r ges
+  r4 ges r ges
+  r4 f r f
+  r4 f r f
+
+  r4 bes r bes
+  r4 bes c8 bes c bes
+
+  % part 4
 
   \bar "|."
 }
