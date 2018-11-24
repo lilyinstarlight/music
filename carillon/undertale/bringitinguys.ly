@@ -8,7 +8,10 @@
 }
 
 melody = \relative c'' {
+  \override Score.RehearsalMark.self-alignment-X = #LEFT
+
   % Enemy Approaching
+  \mark \markup { \bold "Enemy Approaching" }
   \tempo 4 = 175 \key ges \major \time 4/4 r4 \grace { ces8 c } <f, ges des'>8 r r <f ges des'> r4
   <ees fes ces'>8 r r <ees fes ces'> r <ees fes ces'>4.
   r4 \grace { ces'8 c } <f, ges des'>8 r r <f ges des'> r4
@@ -43,6 +46,8 @@ melody = \relative c'' {
   \ottava #0 <bes, des ges>4 <ges' bes des> <c ees>8 <aes c> <f aes> <des f>
 
   % Nyeh Heh Heh!
+  \bar "||"
+  \mark \markup { \bold "Nyeh Heh Heh!" }
   r4 ges, ces ees
   \grace { f8 } ges2 ees
   d4 ees f2
@@ -62,6 +67,8 @@ melody = \relative c'' {
   <d f>8 <c e> <d f> <c e> <d f> <c e> <d f> <c e>
 
   % Snowdin Town
+  \bar "||"
+  \mark \markup { \bold "Snowdin Town" }
   \key f \major g'2. g,8 c
   d4 e d16 e d8 c4
   g'2. g,8 c
@@ -96,6 +103,8 @@ melody = \relative c'' {
   <c c'>1
 
   % Spear of Justice
+  \bar "||"
+  \mark \markup { \bold "Spear of Justice" }
   \tempo 4. = 102 \key ees \major \time 6/8 c8. g8 bes16 a8 f g
   c8. g8 bes16 a8 f g
   c8. g8 bes16 a8 f g
@@ -116,7 +125,9 @@ melody = \relative c'' {
   c8. g8 bes16 a8 f g
   g8 f ees d c b
 
-  % (multiple)
+  % Don't Give Up
+  \bar "||"
+  \mark \markup { \bold "Don't Give Up" }
   g'8 c ees c4 d16 ees
   f8. ees16 d c g8. ees'16 f g
   d2.
@@ -146,6 +157,8 @@ melody = \relative c'' {
   <c e g>2.
 
   % Death by Glamour
+  \bar "||"
+  \mark \markup { \bold "Death by Glamour" }
   \tempo 4 = 165 \key bes \major \time 4/4 r1
   r1
   r1
@@ -171,21 +184,125 @@ melody = \relative c'' {
 
       <ees, g>4 <f a> <g bes>8. <f a>16~ <f a>8 <ees g>
       r8 <ees g> <f a> r <g bes>8. <f a>16~ <f a>4
-      s1
-      s1
+      <ees g>4 <f a> <g bes>8. <f a>16~ <f a>8 <ees g>
+      r8 <ees g> <f a> r <g bes>8. <f a>16~ <f a>4
 
-      s1
-      s1
-      s1
-      s1
+      <ees g>4 <f a> <g bes>8. <f a>16~ <f a>8 <ees g>
+      r8 <ees g> <f a> r <g bes>8. <f a>16~ <f a>4
+      <ees g>4 <f a> <g bes>8. <f a>16~ <f a>8 <ees g>
+      r8 <ees g> <f a> r <g bes>8. <f a>16~ <f a>4
     }
   >>
+
+  \bar "||"
+  g8 c g' ees f16 ees c bes~ bes c g8
+  r8 g c ees f16 ees c bes~ bes8 c16 c
+  g8 c g' ees f16 ees c bes~ bes c g8
+  r8 g c ees c' bes16 g~ g f ees c
+
+  g8 c g' ees f16 ees c bes~ bes c g8
+  r8 g c ees f16 ees c bes~ bes8 c16 c
+  g8 c g' ees f16 ees c bes~ bes c g8
+  r8 g c ees c' bes16 g~ g f ees c
+
+  % CORE
+  \bar "||"
+  \mark \markup { \bold "CORE" }
+  \ottava #0 ees,8 c d \grace { d8 } ees8~ ees4 ees8 c
+  d8 \grace { d8 } ees8~ ees4 ees8 c d4
+  ees8 c d ees~ ees4 ees8 c
+  f8 g~ g4 <c, ees> <ees g>
+
+  <d f>1~
+  <d f>2. <bes ees>4
+  <c f>2. <bes e>8 <g d'>
+  r8 <g e'> r <e g c> r4 <d g bes>
+
+  g'8 f r ees~ ees4 g8 f
+  bes8 ees,4. ees8 bes \grace { c16 cis } d4
+  ees8 c d ees~ ees4 ees8 c
+  f8 g4. <ees, bes'>4 <g ees'>
+
+  <f d'>1~
+  <f d'>2. <bes ees>4
+  <c f>2. <bes e>8 <g d'>
+  r8 <g e'> r <e g c> r4 <d g bes>
+
+  \bar "||"
+
+  \key ees \major \ottava #1 <<
+    \new Voice {
+      \voiceOne
+
+      r8 c''' bes c16 g8 g16 f8 ees f
+      r8 c' bes c16 g8 g16 f8 ees f
+      r8 c' bes c16 g8 g16 f8 ees f
+      r8 c' bes c16 g8 g16 f8 ees f
+
+      r8 c' bes c16 g8 g16 f8 ees f
+      r8 c' bes c16 g8 g16 f8 ees f
+      r8 ces' beses ces16 g8 g16 f8 ees f
+      r8 ces' beses ces16 g8 g16 f8 ees f
+
+      r8 ces' beses ces16 g8 g16 f8 ees f
+    }
+
+    \new Voice {
+      \voiceTwo
+
+      <aes,, c>1
+      r4 <aes d> <c ees> <d f>
+      <ees g>1
+      <d f>2 <c ees>
+
+      <bes d>1
+      <c ees>2 <d f>
+      <d g>2.~ <d g>8 g16 aes
+      <d, g>2.~ <d g>8 g16 aes
+
+      <d, g>2.~ <d g>8 g16 aes
+    }
+  >>
+  <d, g>2 b'
+  g'2 b~
+  b1
+
+  % Bergentrückung
+  \mark \markup { \bold "Bergentrückung" }
+  \bar "||"
+  \tempo 4 = 80 \ottava #0 <g,, ees'>4 <bes g'> <aes f'>2
+  <f d'>4 <bes f'> <g ees'>2
+  \time 3/4 c4. ees8~ ees4
+
+  % Fallen Down
+  \mark \markup { \bold "Fallen Down" }
+  \bar "||"
+  \tempo 4 = 90 \key c \major \time 4/4 <e a>8 <c e> <a c a'> <c e> <e a> <c e> <a c a'> <c e>
+  <d g>8 <b d> <g b g'> <b d> <d g> <b d> <g b g'> <b d>
+  <e a>8 <c e> <a c a'> <c e> <e a> <c e> <a c a'> <c e>
+  <b d g>1\arpeggio
+
+  % Once Upon a Time
+  \mark \markup { \bold "Once Upon a Time" }
+  \bar "||"
+  \tempo 4 = 68 \ottava #1 g'4 g' d2
+  c4 g' g,2
+  g4 c g' a
+  g4 d c2
+
+  bes'4 f ees f
+  fis2 gis
+
+  \ottava #0
 
   \bar "|."
 }
 
 bass = \relative c {
+  \override Score.RehearsalMark.self-alignment-X = #LEFT
+
   % Enemy Approaching
+  \mark \markup { \bold "Enemy Approaching" }
   \tempo 4 = 175 \key ges \major \time 4/4 r4 ees8 r r ees r4
   ees8 r r ees r ees4.
   r4 ees8 r r ees r4
@@ -220,6 +337,8 @@ bass = \relative c {
   ges4 bes aes8 aes bes des
 
   % Nyeh Heh Heh!
+  \bar "||"
+  \mark \markup { \bold "Nyeh Heh Heh!" }
   r4 ges, r aes
   r4 ges r f
   r4 f r aes
@@ -239,6 +358,8 @@ bass = \relative c {
   r4 bes c8 bes c bes
 
   % Snowdin Town
+  \bar "||"
+  \mark \markup { \bold "Snowdin Town" }
   \key f \major bes8 f' bes, f' bes, f' bes, f'
   bes,8 f' bes, f' bes, f' bes, f'
   bes,8 f' bes, f' bes, f' bes, f'
@@ -273,6 +394,8 @@ bass = \relative c {
   r1
 
   % Spear of Justice
+  \bar "||"
+  \mark \markup { \bold "Spear of Justice" }
   \tempo 4. = 102 \key ees \major \time 6/8 c4. r
   f4. r
   c4. r
@@ -293,7 +416,9 @@ bass = \relative c {
   c8. c c8 c c
   g8. g b8 f g
 
-  % (multiple)
+  % Don't Give Up
+  \bar "||"
+  \mark \markup { \bold "Don't Give Up" }
   aes4. aes
   bes4. bes
   c4. c
@@ -323,6 +448,8 @@ bass = \relative c {
   c2.
 
   % Death by Glamour
+  \bar "||"
+  \mark \markup { \bold "Death by Glamour" }
   \tempo 4 = 165 \key bes \major \time 4/4 c'4 ees bes'8. a16~ a8 c,
   r8 c ees r bes'8. a16~ a4
   c,4 ees bes'8. a16~ a8 c,
@@ -337,6 +464,82 @@ bass = \relative c {
   r8 c ees c bes'8 c,16 a'~ a8 bes,
   c4 ees bes'8. a16~ a8 c,
   r8 c ees c bes'8 c,16 a'~ a8 bes,
+
+  \bar "||"
+  <ees g>4 <f a> <g bes>8. <f a>16~ <f a>8 <ees g>
+  r8 <ees g> <f a> r <g bes>8. <f a>16~ <f a>4
+  <ees g>4 <f a> <g bes>8. <f a>16~ <f a>8 <ees g>
+  r8 <ees g> <f a> r <g bes>8. <f a>16~ <f a>4
+
+  <ees g>4 <f a> <g bes>8. <f a>16~ <f a>8 <ees g>
+  r8 <ees g> <f a> r <g bes>8. <f a>16~ <f a>4
+  <ees g>4 <f a> <g bes>8. <f a>16~ <f a>8 <ees g>
+  r8 <ees g> <f a> r <g bes>8. <f a>16~ <f a>4
+
+  % CORE
+  \bar "||"
+  \mark \markup { \bold "CORE" }
+  g8 c, g' c, f c16 bes~ bes c g8
+  r8 g c ees f c16 bes~ bes c g8
+  g'8 c, g' c, f c16 bes~ bes c g8
+  r8 g c ees f ees16 bes~ bes ees g8
+
+  r8 d f, d' ees d16 bes~ bes g f8
+  r8 g c ees f d16 bes~ bes bes g8
+  r8 c ees g c, bes16 g~ g f ees8
+  r8 c' g' c, f c16 bes~ bes c g8
+
+  g8 c g' c, f c16 bes~ bes c g8
+  r8 g c ees f c16 bes~ bes c g8
+  g'8 c, g' c, f c16 bes~ bes c g8
+  r8 g c ees f ees16 bes~ bes ees g8
+
+  r8 d f, d' ees d16 bes~ bes g f8
+  r8 g c ees f d16 bes~ bes bes g8
+  r8 c ees g c, bes16 g~ g f ees8
+  r8 c' g' c, f c16 bes~ bes c g8
+
+  \bar "||"
+  \key ees \major aes4 aes aes aes
+  aes4 aes aes g
+  aes4 aes aes aes
+  aes4 aes aes g8 g
+
+  g4 g g g
+  g4 g g g
+  g4 g g g8 g
+  g4 g g g
+
+  g4 g g g8 g
+  g2 f
+  aes2 g~
+  g1
+
+  % Bergentrückung
+  \mark \markup { \bold "Bergentrückung" }
+  \bar "||"
+  \tempo 4 = 80 c8 g' bes, bes' aes,2
+  g8 g'~ g4 f,2
+  \time 3/4 r2.
+
+  % Fallen Down
+  \mark \markup { \bold "Fallen Down" }
+  \bar "||"
+  \tempo 4 = 90 \key c \major \time 4/4 f8 a e'2.
+  f,8 a d2.
+  f,8 a e'2.
+  g,1
+
+  % Once Upon a Time
+  \mark \markup { \bold "Once Upon a Time" }
+  \bar "||"
+  \tempo 4 = 68 c2 b
+  bes2 a
+  aes2 g
+  <ees aes>2 <f bes>
+
+  <ges ces>2 <aes des>
+  <a d>2 <b e>
 
   \bar "|."
 }
