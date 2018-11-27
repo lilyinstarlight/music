@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "../../ly/expand.ly"
 
 \header {
   title = "Bring It In, Guys!"
@@ -563,5 +564,13 @@ pedals = \new Staff {
   >>
 
   \layout {}
+}
+
+\score {
+  \expand <<
+    \keys
+    \pedals
+  >>
+
   \midi {}
 }
