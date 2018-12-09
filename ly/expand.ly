@@ -1047,7 +1047,7 @@ expand = #(define-music-function (music)
        (list
         (make-music 'SequentialMusic 'elements (list))
         (make-sequential-music (append-map
-         (lambda (note) (list (make-music 'NoteEvent 'pitch (ly:music-property note 'pitch) 'duration (ly:make-duration 5) 'articulations (list (make-music 'TieEvent)))))
+         (lambda (note) (list (make-music 'NoteEvent 'pitch (ly:music-property note 'pitch) 'duration (ly:make-duration 4) 'articulations (list (make-music 'TieEvent)))))
          notes))
         (make-music 'SequentialMusic 'elements (list)))))
      (make-music 'EventChord 'elements notes))))))
