@@ -842,8 +842,7 @@ pedals_two = \new Staff {
 }
 
 \score {
-  \unfoldRepeats
-  <<
+  \unfoldRepeats <<
     \keys_one
     \keys_two
     \pedals_one
