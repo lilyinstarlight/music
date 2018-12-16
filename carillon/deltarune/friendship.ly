@@ -108,6 +108,34 @@ melody = \relative c'' {
   <fis, ais e'>1
   cis''4 b8 ais4 cis8 ais fis
 
+  d'4 r fis, d8 b~
+  b2 r
+  r2 gis'4 e8 cis~
+  cis2 r
+
+  r2 a'4 gis8 fis~
+  fis4 gis \grace { b8 } a4 b
+  \grace { b8 } a2. \tuplet 3/2 { fis8 a cis }
+  fis2. cis8 d
+
+  e4 e e e
+  r2. a,8 cis
+  b4 b b b
+  r2. cis8 b
+
+  a2. e4
+  cis'4 d b4. a8
+
+  a1~
+  a1
+  r1
+  r1
+
+  r1
+  r1
+  r1
+  r4 gis, a b
+
   \bar "|."
 }
 
@@ -208,6 +236,34 @@ bass = \relative c' {
   cis4 eis gis cis,
   fis4 cis cis cis
   ais4 fis ais cis
+
+  b4 d fis d
+  b4 d fis d
+  cis4 e gis e
+  cis4 e gis e
+
+  d4 e a e
+  e4 gis b gis
+  fis4 a e a
+  dis,1
+
+  d4 e a e
+  r1
+  d4 e a e
+  r1
+
+  d4 e a r
+  e2.~ e8 d
+
+  a4 e' a <b, gis'>~
+  <b gis'>4 e b gis
+  <d fis>4 a' d <gis, e'>~
+  <gis e'>4 b gis e
+
+  <a cis>4 e' a <b, gis'>~
+  <b gis'>4 e b gis
+  <d fis>4 a' d <gis, e'>~
+  <gis e'>4 e b' e
 
   \bar "|."
 }
