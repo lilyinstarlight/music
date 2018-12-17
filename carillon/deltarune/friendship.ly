@@ -40,20 +40,20 @@ melody = \relative c'' {
 
   % part 1
   \repeat volta 2 {
-    <cis e>4 <cis e> <cis e> <gis b e>~
-    <gis b e>2 r4 <cis, a'>8 <e cis'>
-    <e b'>4 <e b'> <e b'> <dis fis b>~
-    <dis fis b>2 r4 \grace { b'8 } <a cis>8 <gis b>
+    <cis e>4 <cis e> <cis e> <b e>~
+    <b e>2 r4 <cis, a'>8 <e cis'>
+    <e b'>4 <e b'> <e b'> <fis b>~
+    <fis b>2 r4 \grace { b8 } <a cis>8 <gis b>
 
-    <fis a>4 <fis a>8 gis <e a> fis <cis e a>4~
-    <cis e a>2 r4 <e a>
+    <fis a>4 <fis a>8 gis <e a> fis <e a>4~
+    <e a>2 r4 <e a>
     <a cis>4 <b d> <a cis> <gis b>~
     <gis b>4 a b <a cis>8 <b d>
 
-    <cis e>4 <cis e> <cis e> <gis b eis>~
-    <gis b eis>2 r4 a8 cis
-    <e, b'>4 <e b'> <e b'> <b dis fis b>~
-    <b dis fis b>2 r4 \grace { b'8 } <e, cis'>8 <d b'>
+    <cis e>4 <cis e> <cis e> <b eis>~
+    <b eis>2 r4 a8 cis
+    <e, b'>4 <e b'> <e b'> <dis fis b>~
+    <dis fis b>2 r4 \grace { b'8 } <e, cis'>8 <d b'>
 
     <cis a'>2 r4 <cis e>
     <e cis'>4 <fis d'> <d b'>4. <cis a'>8
@@ -88,25 +88,25 @@ melody = \relative c'' {
   r1
   r4 gis a b
 
-  r2 <a cis>4 <gis b>8 <fis a>~
+  r2 cis4 <gis b>8 <fis a>~
   <fis a>1
-  r2 <gis cis>4 <b d>8 <e, b'>~
+  r2 cis'4 <b d>8 <e, b'>~
   <e b'>1
 
-  r2 <gis cis>4 <e b'>8 <cis a'>~
-  <cis a'>4 <e b'> <gis cis> <b fis'>
+  r2 cis'4 b8 <cis, a'>~
+  <cis a'>4 b' <gis cis> <b fis'>
   <a cis e>1
   cis'4 b8 a4 b8 a e
 
-  r2 <a, cis>4 <gis b>8 <fis a>~
+  r2 cis4 <gis b>8 <fis a>~
   <fis a>1
   r2 <gis cis>4 <b d>8 <e, b'>~
   <e b'>1
 
-  r2 <gis cis>4 <eis b'>8 <cis a'>~
-  <cis a'>4 <eis b'> <gis cis> <cis fis>
-  <fis, ais e'>1
-  cis''4 b8 ais4 cis8 ais fis
+  r2 cis'4 b8 <cis, a'>~
+  <cis a'>4 b' <gis cis> <cis fis>
+  <ais e'>1
+  cis'4 b8 ais4 cis8 ais fis
 
   d'4 r fis, d8 b~
   b2 r
