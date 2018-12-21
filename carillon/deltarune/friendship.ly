@@ -41,7 +41,7 @@ melody = \relative c'' {
   % part 1
   \repeat volta 2 {
     <cis e>4 <cis e> <cis e> <b e>~
-    <b e>2 r4 <cis, a'>8 <e cis'>
+    <b e>2 r4 a8 <e cis'>
     <e b'>4 <e b'> <e b'> <fis b>~
     <fis b>2 r4 \grace { b8 } <a cis>8 <gis b>
 
