@@ -70,7 +70,7 @@ melody = \relative c'' {
   % Snowdin Town
   \bar "||"
   \mark \markup { \bold "Snowdin Town" }
-  \key f \major g'2. g,8 c
+  \key c \major g'2. g,8 c
   d4 e d16 e d8 c4
   g'2. g,8 c
   d4 e d16 e d8 c4
@@ -320,9 +320,9 @@ bass = \relative c {
   r4 <ges, bes>8 r r <ges bes> r4
   ges4 bes8 aes~ aes ees' c aes
   r4 <ees ges>8 r r <ees ges> r4
-  ges4 r4 r8 f ees des
+  ges4 r4 r8 f' ees des
 
-  r4 <ges bes>8 r r <ges bes> r4
+  r4 <ges, bes>8 r r <ges bes> r4
   ges4 bes8 aes~ aes ees' c aes
   ges4 ges r8 bes r bes
   ges4 bes aes8 aes bes des
@@ -330,9 +330,9 @@ bass = \relative c {
   r4 <ges, bes>8 r r <ges bes> r4
   ges4 bes8 aes~ aes ees' c aes
   r4 <ees ges>8 r r <ees ges> r4
-  ges4 r4 r8 f ees des
+  ges4 r4 r8 f' ees des
 
-  r4 <ges bes>8 r r <ges bes> r4
+  r4 <ges, bes>8 r r <ges bes> r4
   ges4 bes8 aes~ aes ees' c aes
   ges8 ges r aes aes aes r aes
   ges4 bes aes8 aes bes des
@@ -361,7 +361,7 @@ bass = \relative c {
   % Snowdin Town
   \bar "||"
   \mark \markup { \bold "Snowdin Town" }
-  \key f \major bes8 f' bes, f' bes, f' bes, f'
+  \key c \major bes8 f' bes, f' bes, f' bes, f'
   bes,8 f' bes, f' bes, f' bes, f'
   bes,8 f' bes, f' bes, f' bes, f'
   bes,8 f' bes, f' bes, f' bes, f'
