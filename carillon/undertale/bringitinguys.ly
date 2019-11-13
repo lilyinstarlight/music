@@ -1,5 +1,5 @@
 \version "2.18.2"
-\include "../../ly/expand.ly"
+\include "../../ily/expand.ily"
 
 \header {
   title = "Bring It In, Guys!"
