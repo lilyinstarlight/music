@@ -5,7 +5,7 @@ addons:
     packages:
     - rclone
 install:
-  - curl -o /tmp/lilypond.linux-64.sh http://lilypond.org/download/binaries/linux-64/lilypond-2.19.83-1.linux-64.sh && chmod +x /tmp/lilypond.linux-64.sh && sudo /tmp/lilypond.linux-64.sh
+  - curl -o /tmp/lilypond.linux-64.sh http://lilypond.org/download/binaries/linux-64/lilypond-2.19.83-1.linux-64.sh && chmod +x /tmp/lilypond.linux-64.sh && sudo /tmp/lilypond.linux-64.sh --batch
 script: .ci/build.sh
 deploy:
   - provider: script
