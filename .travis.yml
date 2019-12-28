@@ -5,7 +5,8 @@ install:
   - curl https://rclone.org/install.sh | sudo bash
 script: .ci/build.sh
 deploy:
-  - provider: script
-    script: .ci/deploy.sh
-    on:
-      branch: master
+  provider: script
+  edge: true
+  script: .ci/deploy.sh
+  on:
+    branch: master
