@@ -1,7 +1,8 @@
 %
 % Copyright (C) 2008, 2009, 2010, 2011 NICTA
 % Author: Peter Chubb <peter.chubb AT nicta.com.au>
-% $Id: articulate.ly,v 1.7 2011-03-24 00:40:00 peterc Exp $
+%
+% Modified by Foster McLane <fkmclane@gmail.com> for arpeggiating chords
 %
 %
 %  This program is free software; you can redistribute it and/or modify
@@ -67,7 +68,7 @@
 %
 %%%USAGE
 % In the \score section do:
-% \articulate <<
+% \expand <<
 %       all the rest of the score
 % >>
 % or use the lilywrap script.
@@ -134,6 +135,8 @@
 %  * Thomas Morley: extend unfold-repeats to reflect the possibility to
 %    customize its effect to user-settable repeat-types. Here the most general
 %    setting is hard-coded, resulting in unchanged behaviour.
+%  * Foster McLane: add functionality to arpeggiate chords and rename to
+%    expand to avoid name clashes with the articulate script
 
 \version "2.19.22"
 
