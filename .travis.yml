@@ -1,0 +1,13 @@
+dist: bionic
+addons:
+  apt:
+    packages:
+    - rclone
+install:
+  - curl http://lilypond.org/download/binaries/linux-64/lilypond-2.19.83-1.linux-64.sh | sudo bash
+script: .ci/build.sh
+deploy:
+  - provider: script
+    script: .ci/deploy.sh
+    on:
+      branch: master
