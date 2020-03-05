@@ -1,7 +1,7 @@
 language: minimal
 dist: bionic
 install:
-  - curl -o /tmp/lilypond.linux-64.sh http://lilypond.org/download/binaries/linux-64/lilypond-2.19.83-1.linux-64.sh && chmod +x /tmp/lilypond.linux-64.sh && sudo /tmp/lilypond.linux-64.sh --batch
+  - curl -o /tmp/lilypond.linux-64.sh http://lilypond.org/download/binaries/linux-64/lilypond-2.20.0-1.linux-64.sh && chmod +x /tmp/lilypond.linux-64.sh && sudo /tmp/lilypond.linux-64.sh --batch
   - curl https://rclone.org/install.sh | sudo bash
 script: .ci/build.sh
 deploy:
