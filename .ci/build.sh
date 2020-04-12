@@ -4,7 +4,7 @@ shopt -s globstar
 rm -rf dist
 mkdir -p dist
 
-for ly in **/*.ly; do
+for ly in ly/**/*.ly; do
 	name="${ly%.*}"
 
 	mkdir -p dist/"$name"
