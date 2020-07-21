@@ -9,4 +9,4 @@ deploy:
   edge: true
   script: .ci/deploy.sh
   on:
-    branch: master
+    branch: main
