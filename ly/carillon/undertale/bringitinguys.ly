@@ -361,35 +361,35 @@ bass = \relative c {
   % Snowdin Town
   \bar "||"
   \mark \markup { \bold "Snowdin Town" }
-  \key c \major bes8 f' bes, f' bes, f' bes, f'
-  bes,8 f' bes, f' bes, f' bes, f'
-  bes,8 f' bes, f' bes, f' bes, f'
-  bes,8 f' bes, f' bes, f' bes, f'
+  \key c \major bes4 f' bes, f'
+  bes,4 f' bes, f'
+  bes,4 f' bes, f'
+  bes,4 f' bes, f'
 
-  bes,8 f' bes, f' bes, f' bes, f'
-  bes,8 f' bes, f' bes, f' bes, f'
-  c8 c e e g, g e' e
-  c8 c e e b b d d
+  bes,4 f' bes, f'
+  bes,4 f' bes, f'
+  c4 e g, e'
+  c4 e b d
 
-  bes8 f' bes, f' bes, f' bes, f'
-  bes,8 f' bes, f' bes, f' bes, f'
-  bes,8 f' bes, f' bes, f' bes, f'
-  bes,8 f' bes, f' bes, f' bes, f'
+  bes4 f' bes, f'
+  bes,4 f' bes, f'
+  bes,4 f' bes, f'
+  bes,4 f' bes, f'
 
-  bes,8 f' bes, f' bes, f' bes, f'
-  bes,8 f' bes, f' bes, f' bes, f'
-  c8 c e e g, g e' e
-  c8 c e e b b d d
+  bes,4 f' bes, f'
+  bes,4 f' bes, f'
+  c4 e g, e'
+  c4 e b d
 
-  e,8 b' d, b' e, b' d, b'
-  e,8 b' d, b' e, b' d, b'
-  e,8 b' d, b' e, b' d, b'
-  e,8 b' d, b' e, b' d, b'
+  e,4 b' d, b'
+  e,4 b' d, b'
+  e,4 b' d, b'
+  e,4 b' d, b'
 
-  aes8 d ees, d' aes d ees, d'
-  aes8 d ees, d' aes d ees, d'
-  bes8 f' g, f' bes, f' g, f'
-  bes,8 f' g, f' bes, f' g, f'
+  aes4 d ees, d'
+  aes4 d ees, d'
+  bes4 f' g, f'
+  bes,4 f' g, f'
 
   r1
   r1
@@ -501,17 +501,17 @@ bass = \relative c {
   r8 c' g' c, f c16 bes~ bes c g8
 
   \bar "||"
-  \key ees \major aes4 aes aes aes
-  aes4 aes aes g
-  aes4 aes aes aes
-  aes4 aes aes g8 g
+  \key ees \major aes2 aes
+  aes2. g4
+  aes2 aes
+  aes2. g8 g
 
-  g4 g g g
-  g4 g g g
-  g4 g g g8 g
-  g4 g g g
+  g2 g
+  g2 g
+  g2. g8 g
+  g2 g
 
-  g4 g g g8 g
+  g2. g8 g
   g2 f
   aes2 g~
   g1
