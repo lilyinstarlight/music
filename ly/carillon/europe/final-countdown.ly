@@ -4,7 +4,7 @@
   title = "The Final Countdown"
   instrument = "Carillon"
   composer = "Joey Tempest"
-  arranger = "Foster McLane"
+  arranger = "Lily Foster"
 }
 
 main_tempo = \tempo 4 = 110

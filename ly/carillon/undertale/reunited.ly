@@ -4,7 +4,7 @@
   title = "Reunited"
   instrument = "Carillon"
   composer = "Toby Fox"
-  arranger = "maxmic480 & Foster McLane"
+  arranger = "maxmic480 & Lily Foster"
 }
 
 main_tempo = \tempo 4 = 130

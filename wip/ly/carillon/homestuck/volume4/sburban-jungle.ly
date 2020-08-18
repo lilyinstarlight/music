@@ -4,7 +4,7 @@
   title = "Sburban Jungle"
   instrument = "Carillon"
   composer = "Michael Guy Bowman"
-  arranger = "Foster McLane"
+  arranger = "Lily Foster"
 }
 
 main_tempo = \tempo 4 = 140

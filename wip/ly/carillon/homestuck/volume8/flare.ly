@@ -4,7 +4,7 @@
   title = "Flare"
   instrument = "Carillon"
   composer = "Clark \"Plazmataz\" Powell"
-  arranger = "Foster McLane"
+  arranger = "Lily Foster"
 }
 
 main_tempo = \tempo 4 = 90

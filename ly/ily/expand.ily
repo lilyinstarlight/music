@@ -2,7 +2,7 @@
 % Copyright (C) 2008, 2009, 2010, 2011 NICTA
 % Author: Peter Chubb <peter.chubb AT nicta.com.au>
 %
-% Modified by Foster McLane <fkmclane@gmail.com> for arpeggiating chords
+% Modified by Lily Foster <lily@lily.flowers> for arpeggiating chords
 %
 %
 %  This program is free software; you can redistribute it and/or modify
@@ -135,7 +135,7 @@
 %  * Thomas Morley: extend unfold-repeats to reflect the possibility to
 %    customize its effect to user-settable repeat-types. Here the most general
 %    setting is hard-coded, resulting in unchanged behaviour.
-%  * Foster McLane: add functionality to arpeggiate chords and rename to
+%  * Lily Foster: add functionality to arpeggiate chords and rename to
 %    expand to avoid name clashes with the articulate script
 
 \version "2.19.22"

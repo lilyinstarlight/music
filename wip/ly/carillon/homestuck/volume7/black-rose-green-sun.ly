@@ -4,7 +4,7 @@
   title = "Black Rose / Green Sun"
   instrument = "Carillon"
   composer = "Malcolm Brown"
-  arranger = "Foster McLane"
+  arranger = "Lily Foster"
 }
 
 main_tempo = \tempo 4 = 140

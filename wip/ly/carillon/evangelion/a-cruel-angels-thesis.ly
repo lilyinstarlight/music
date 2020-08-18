@@ -4,7 +4,7 @@
   title = "A Cruel Angel's Thesis"
   instrument = "Carillon"
   composer = "Hidetoshi Satō"
-  arranger = "Foster McLane"
+  arranger = "Lily Foster"
 }
 
 intro_tempo = \tempo 4 = 80

@@ -4,7 +4,7 @@
   title = "We Are The Champions"
   instrument = "Carillon"
   composer = "Freddie Mercury"
-  arranger = "Foster McLane"
+  arranger = "Lily Foster"
 }
 
 main_tempo = \tempo 4 = 120

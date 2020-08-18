@@ -4,7 +4,7 @@
   title = "Homestuck"
   instrument = "Carillon"
   composer = "Mark Hadley"
-  arranger = "Foster McLane"
+  arranger = "Lily Foster"
 }
 
 main_tempo = \tempo 4 = 200

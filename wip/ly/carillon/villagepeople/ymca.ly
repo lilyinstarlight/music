@@ -4,7 +4,7 @@
   title = "Y.M.C.A."
   instrument = "Carillon"
   composer = "Jacques Morali"
-  arranger = "Foster McLane"
+  arranger = "Lily Foster"
 }
 
 main_tempo = \tempo 4 = 110

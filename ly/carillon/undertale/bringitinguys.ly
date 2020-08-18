@@ -5,7 +5,7 @@
   title = "Bring It In, Guys!"
   instrument = "Carillon"
   composer = "Toby Fox"
-  arranger = "Zeila & Foster McLane"
+  arranger = "Zeila & Lily Foster"
 }
 
 melody = \relative c'' {

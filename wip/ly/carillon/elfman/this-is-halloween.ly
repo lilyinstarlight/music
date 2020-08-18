@@ -5,7 +5,7 @@
   title = "This Is Halloween"
   instrument = "Carillon"
   composer = "Danny Elfman"
-  arranger = "Samibe1 & Foster McLane"
+  arranger = "Samibe1 & Lily Foster"
 }
 
 main_tempo = \tempo 4 = 80

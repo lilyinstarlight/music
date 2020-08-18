@@ -4,7 +4,7 @@
   title = "Alternia"
   instrument = "Carillon"
   composer = "Toby Fox & Seth Peelle"
-  arranger = "Foster McLane"
+  arranger = "Lily Foster"
 }
 
 main_tempo = \tempo 4 = 80

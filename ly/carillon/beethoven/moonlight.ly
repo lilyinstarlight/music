@@ -4,7 +4,7 @@
   title = "Moonlight"
   instrument = "Carillon"
   composer = "Ludwig van Beethoven"
-  arranger = "Foster McLane"
+  arranger = "Lily Foster"
 }
 
 main_tempo = \tempo 4 = 50

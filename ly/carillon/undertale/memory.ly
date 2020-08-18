@@ -4,7 +4,7 @@
   title = "Memory"
   instrument = "Carillon"
   composer = "Toby Fox"
-  arranger = "Jester Musician & Foster McLane"
+  arranger = "Jester Musician & Lily Foster"
 }
 
 main_tempo = \tempo 4 = 80

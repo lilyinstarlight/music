@@ -4,7 +4,7 @@
   title = "Finale"
   instrument = "Carillon"
   composer = "Toby Fox"
-  arranger = "Janne Sala & Foster McLane"
+  arranger = "Janne Sala & Lily Foster"
 }
 
 main_tempo = \tempo 4 = 160

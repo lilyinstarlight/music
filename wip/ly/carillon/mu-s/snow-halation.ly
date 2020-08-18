@@ -4,7 +4,7 @@
   title = "Snow Halation"
   instrument = "Carillon"
   composer = "Tamada Takahiro & Glenowan"
-  arranger = "Foster McLane"
+  arranger = "Lily Foster"
 }
 
 main_tempo = \tempo 4 = 170

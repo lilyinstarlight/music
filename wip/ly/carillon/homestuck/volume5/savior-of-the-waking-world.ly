@@ -4,7 +4,7 @@
   title = "Savior of the Waking World"
   instrument = "Carillon"
   composer = "Toby Fox"
-  arranger = "Foster McLane"
+  arranger = "Lily Foster"
 }
 
 main_tempo = \tempo 4 = 120
