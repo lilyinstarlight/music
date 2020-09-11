@@ -1,6 +1,8 @@
 *.pdf
 *.midi
 *.png
+*.wav
+*.m4a
 
 /build
 /dist
