@@ -34,15 +34,47 @@ melody = \relative c'' {
 
   % part 2
   \ottava #1 {
+    \repeat volta 3 {
+      bes'2 bes'
+      f1
+      ees2 bes'
+      bes,1
+
+      bes2 d
+      bes'2. c4
+      bes2 f
+    }
+    \alternative {
+      {
+        ees1
+      }
+      {
+        ees,8 ees' d bes g f ees bes
+      }
+    }
+  }
+
+  % part 3
+  \ottava #1 {
     \repeat volta 2 {
       bes'2 bes'
       f1
       ees2 bes'
       bes,1
 
-      bes2 ees
+      bes2 d
       bes'2. c4
       bes2 f
+      ees1
+
+      bes2 bes'
+      f2 f8 g f ees
+      ees2 bes'
+      bes,2 d8 ees g c
+
+      bes,2 d
+      ees2 ees8 d ees f
+      g2 f4. ees8
     }
     \alternative {
       {
@@ -80,7 +112,37 @@ harmony = \relative c'' {
   r8 bes8 ees g f8. ees f8
 
   % part 2
+  \repeat volta 3 {
+    bes,8 f' ees bes d8. d ees8
+    r8 bes8 ees bes d8. d ees8
+    bes8 f' ees bes d8. d ees8
+    r8 bes8 ees g f8. ees f8
+
+    bes,8 f' ees bes d8. d ees8
+    r8 bes8 ees bes d8. d ees8
+    bes8 f' ees bes d8. d ees8
+  }
+  \alternative {
+    {
+      r8 bes8 ees g f8. ees f8
+    }
+    {
+      s1
+    }
+  }
+
+  % part 3
   \repeat volta 2 {
+    bes,8 f' ees bes d8. d ees8
+    r8 bes8 ees bes d8. d ees8
+    bes8 f' ees bes d8. d ees8
+    r8 bes8 ees g f8. ees f8
+
+    bes,8 f' ees bes d8. d ees8
+    r8 bes8 ees bes d8. d ees8
+    bes8 f' ees bes d8. d ees8
+    r8 bes8 ees g f8. ees f8
+
     bes,8 f' ees bes d8. d ees8
     r8 bes8 ees bes d8. d ees8
     bes8 f' ees bes d8. d ees8
@@ -125,7 +187,7 @@ bass = \relative c' {
   c4 c c c
 
   % part 2
-  \repeat volta 2 {
+  \repeat volta 3 {
     aes4 aes aes aes
     aes4 aes aes aes
     g4 g g g
@@ -133,6 +195,36 @@ bass = \relative c' {
 
     aes4 aes aes aes
     aes4 aes aes aes
+    bes4 bes bes bes
+  }
+  \alternative {
+    {
+      c4 c c c
+    }
+    {
+      r1
+    }
+  }
+
+  % part 3
+  \repeat volta 2 {
+    aes4 bes8 ees aes,4 bes8 ees
+    aes,4 bes8 ees aes,4 bes8 ees
+    g,4 bes8 ees g,4 bes8 ees
+    g,4 g g bes8 ees
+
+    aes,4 aes aes aes
+    aes4 bes8 ees aes,4 bes8 ees
+    bes4 bes bes bes
+    c4 c c c
+
+    aes4 bes8 ees aes,4 bes8 ees
+    aes,4 bes8 ees aes,4 bes8 ees
+    g,4 bes8 ees g,4 bes8 ees
+    g,4 g g bes8 ees
+
+    aes,4 aes aes aes
+    aes4 bes8 ees aes,4 bes8 ees
     bes4 bes bes bes
   }
   \alternative {
