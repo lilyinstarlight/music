@@ -1,0 +1,51 @@
+name: Generate
+
+on: push
+
+jobs:
+  build:
+    name: Generate sheets and audio
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Dependencies
+        run: |
+          curl -o /tmp/lilypond.linux-64.sh http://lilypond.org/download/binaries/linux-64/lilypond-2.20.0-1.linux-64.sh
+          chmod +x /tmp/lilypond.linux-64.sh
+          sudo /tmp/lilypond.linux-64.sh --batch
+
+          sudo apt update -y
+          sudo apt install -y fluidsynth ffmpeg
+
+      - uses: actions/checkout@v2
+
+      - name: Run .ci/build.sh
+        run: .ci/build.sh
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: repo
+          path: dist
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    name: Upload generated music
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Dependencies
+        run: curl https://rclone.org/install.sh | sudo bash
+
+      - uses: actions/checkout@v2
+
+      - uses: actions/download-artifact@v2
+        with:
+          name: repo
+          path: dist
+
+      - name: Run .ci/deploy.sh
+        run: .ci/deploy.sh
+        env:
+          SFTP_HOST: ${{ secrets.SFTP_HOST }}
+          SFTP_USER: ${{ secrets.SFTP_USER }}
+          SFTP_KEY: ${{ secrets.SFTP_KEY }}
+          SFTP_PATH: ${{ secrets.SFTP_PATH }}
