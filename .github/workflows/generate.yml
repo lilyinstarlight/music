@@ -13,8 +13,8 @@ jobs:
           chmod +x /tmp/lilypond.linux-64.sh
           sudo /tmp/lilypond.linux-64.sh --batch
 
-          sudo apt update -y
-          sudo apt install -y fluidsynth ffmpeg
+          sudo apt-get update -y
+          sudo apt-get install -y fluidsynth ffmpeg
 
       - uses: actions/checkout@v2
 
