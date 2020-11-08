@@ -8,12 +8,12 @@ mkdir -p dist
 
 curl -Lo build/MuseScore_General.sf3 'https://ftp.osuosl.org/pub/musescore/soundfont/MuseScore_General/MuseScore_General.sf3'
 
-for ly in ly/**/*.ly; do
+for ly in ly/**/*.ly wip/ly/**/*.ly; do
 	path="${ly%.*}"
 	name="$(basename "$path")"
 
 	case "$ly" in
-		ly/carillon/*)
+		ly/carillon/*|wip/ly/carillon/*)
 			sf2='sf2/ClemsonCarillon.sf2'
 			;;
 
