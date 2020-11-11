@@ -1,5 +1,5 @@
 %
-% Copyright (C) 2008, 2009, 2010, 2011 NICTA
+% Copyright (C) 2008--2020 NICTA
 % Author: Peter Chubb <peter.chubb AT nicta.com.au>
 %
 % Modified by Lily Foster <lily@lily.flowers> for arpeggiating chords
@@ -138,7 +138,7 @@
 %  * Lily Foster: add functionality to arpeggiate chords and rename to
 %    expand to avoid name clashes with the articulate script
 
-\version "2.19.22"
+\version "2.20.0"
 
 #(use-modules (srfi srfi-1))
 #(use-modules (srfi srfi-11))
@@ -665,8 +665,7 @@
          (set! ac:inPhrasingSlur (eqv? direction -1))
          (loop factor newelements tail actions)))
 
-       (else (loop factor (cons e newelements) tail actions)))
-      )))))
+       (else (loop factor (cons e newelements) tail actions))))))))
 
 
 
@@ -749,7 +748,7 @@
            (list pset (loop (cdr actions)))))))
 
        ((trill)
-        (ac:trill music))
+         (ac:trill music))
 
        ((prall)
         ; A pralltriller symbol can either mean an inverted mordent
