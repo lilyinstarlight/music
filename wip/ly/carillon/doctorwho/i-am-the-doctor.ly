@@ -4,7 +4,8 @@
   title = "I Am the Doctor"
   instrument = "Carillon"
   composer = "Murray Gold"
-  arranger = "Jither & Lily Foster"
+  arranger = "Lily Foster"
+  copyright = "Inspired from arrangement by Jither"
 }
 
 main_tempo = \tempo 4 = 174

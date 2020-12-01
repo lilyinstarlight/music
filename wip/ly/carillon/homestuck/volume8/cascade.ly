@@ -4,7 +4,8 @@
   title = "Cascade"
   instrument = "Carillon"
   composer = "Joren de Bruin, Clark Powell & Malcolm Brown"
-  arranger = "Purple1222119 & Lily Foster"
+  arranger = "Lily Foster"
+  copyright = "Inspired from arrangement by Purple1222119"
 }
 
 main_tempo = \tempo 4 = 120

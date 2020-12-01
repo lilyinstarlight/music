@@ -4,7 +4,8 @@
   title = "Death By Glamour"
   instrument = "Carillon"
   composer = "Toby Fox"
-  arranger = "Jeffrey Zhou & Lily Foster"
+  arranger = "Lily Foster"
+  copyright = "Inspired from arrangement by Jeffrey Zhou"
 }
 
 main_tempo = \tempo "Fabulously" 2 = 148

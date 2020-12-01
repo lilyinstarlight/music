@@ -4,7 +4,8 @@
   title = "Dummy!"
   instrument = "Carillon"
   composer = "Toby Fox"
-  arranger = "Jester Musician & Lily Foster"
+  arranger = "Lily Foster"
+  copyright = "Inspired from arrangement by Jester Musician"
 }
 
 main_tempo = \tempo 2 = 100

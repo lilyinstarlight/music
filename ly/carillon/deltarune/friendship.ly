@@ -4,7 +4,8 @@
   title = "Friendship"
   instrument = "Carillon"
   composer = "Toby Fox"
-  arranger = "Saftur & Lily Foster"
+  arranger = "Lily Foster"
+  copyright = "Inspired from arrangement by Saftur"
 }
 
 main_tempo = \tempo 4 = 160
