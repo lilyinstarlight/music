@@ -19,7 +19,7 @@ melody = \relative c'' {
   fis2 fis'4 dis
   cis4 b ais8 b4 cis8~
   cis2 ais'
-  \grace { a16 gis g } fis1
+  \grace { a16 gis } fis1
 
   gis,2 fis'4 dis
   cis4 b cis8 dis4 ais8~
@@ -29,7 +29,7 @@ melody = \relative c'' {
   fis2 fis'4 dis
   cis4 b ais8 b4 cis8~
   cis2 ais'
-  \grace { a16 gis g } fis1
+  \grace { a16 gis } fis1
 
   gis,2 fis'4 dis
   cis4 b cis8 dis4 e8~
