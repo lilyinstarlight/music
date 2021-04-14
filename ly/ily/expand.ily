@@ -138,7 +138,7 @@
 %  * Lily Foster: add functionality to arpeggiate chords and rename to
 %    expand to avoid name clashes with the articulate script
 
-\version "2.20.0"
+\version "2.22.0"
 
 #(use-modules (srfi srfi-1))
 #(use-modules (srfi srfi-11))
