@@ -1,4 +1,4 @@
-\version "2.22.1"
+\version "2.22.2"
 \include "../../../../ly/ily/expand.ily"
 
 \header {
